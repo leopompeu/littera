@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leozinho.github.io/littera"
+  "homepage": "https://leozinho.github.io/littera",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
