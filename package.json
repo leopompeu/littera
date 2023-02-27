@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leozinho.github.io/littera"
+  "homepage": "https://leozinho.github.io/littera",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +16,7 @@
     "@szhsin/react-accordion": "^1.2.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "google-map-react": "^2.2.0",
     "hamburger-react": "^2.5.0",
     "nuka-carousel": "^5.4.1",
