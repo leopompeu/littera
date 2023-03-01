@@ -1,10 +1,7 @@
 import React from 'react'
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
-import { useState } from 'react'
-import { RxDotFilled, RxDot } from 'react-icons/rx'
 import Carousel from 'nuka-carousel/lib/carousel'
 import { isMobile } from 'react-device-detect'
-import Aos from 'aos'
+import { card1, card2, card3 } from '../assets'
 
 
 function CardServicos() {
@@ -17,7 +14,6 @@ function CardServicos() {
                     wrapAround = {true}
                     defaultControlsConfig={{
                         pagingDotsStyle: {
-                            fill: "white",
                             marginRight: "15px",
                             position: 'relative',
                             top: '60px'
@@ -35,13 +31,19 @@ function CardServicos() {
                         </div>
                 )}>
                     <div>
-                        <img className='images' src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' />
+                        <a href='/sites'>
+                            <img className='images' src={ card1 } />
+                        </a>
                     </div>
                     <div>
-                        <img className='images' src='https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' />
+                        <a href='/aplicativos'>
+                            <img className='images' src={ card2 } />
+                        </a>
                     </div>
                     <div>
-                        <img className='images' src='https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' />
+                        <a href='/seguranca'>
+                            <img className='images' src={ card3 } />
+                        </a>
                     </div>
                 </Carousel>
             </div>

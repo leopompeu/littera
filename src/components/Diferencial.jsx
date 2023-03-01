@@ -22,7 +22,7 @@ const Diferencial = () => {
             <img className='image-diferencial' src="https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"></img>
             <div className='card-diferencial'>
               <div className='textbox-diferencial'>
-                <p className='text-diferencial'>A Littera é composta por um time de profissionais experientes em diversos nichos dentro de TI, como foco na inovação de forma assertiva e segura, trabalhamos dia e noite com amor e dedicação a cada cliente individualmente para garantir os melhores resultados</p>
+                <p className='text-diferencial'>A Littera é composta por um time de profissionais experientes em diversos nichos dentro de TI, como foco na inovação de forma assertiva e segura, trabalhamos dia e noite com amor e dedicação para garantir os melhores resultados</p>
               </div>
             </div>
           </div>

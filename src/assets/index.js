@@ -38,7 +38,10 @@ import people03 from "./people03.png";
 import dotEmpty from "./dotEmpty.png";
 import dotFilled from "./dotFilled.png";
 import locationIcon from "./locationIcon.png";
-import map from "./map.png"
+import map from "./map.png";
+import card1 from "./card1.png"
+import card2 from "./card2.png"
+import card3 from "./card3.png"
 
 export {
   anna,
@@ -81,5 +84,8 @@ export {
   dotFilled,
   whatsappGold,
   locationIcon,
-  map
+  map,
+  card1,
+  card2,
+  card3
 };

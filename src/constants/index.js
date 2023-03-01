@@ -33,12 +33,8 @@ export const navLinks = [
     title: "Orçamentos",
   },
   {
-    id: "about",
+    id: "sobre",
     title: "Sobre nós",
-  },
-  {
-    id: "blog",
-    title: "Blog",
   },
   {
     id: "x",

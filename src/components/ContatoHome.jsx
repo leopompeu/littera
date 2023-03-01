@@ -14,7 +14,6 @@ const ContatoHome = () => {
         <div className='footer'>
           <Contato data-aos="fade-up"/>
           <Footer/>
-
         </div>
       </section>
     )

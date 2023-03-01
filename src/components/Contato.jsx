@@ -7,7 +7,6 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
-
 const Contato = () => {
 
   useEffect(() => {
@@ -36,7 +35,11 @@ const Contato = () => {
           </div>
         </div>
         <h1 className='whatsapp-text'>Ou nos chame pelo whatsapp!</h1>
-        <img className='whatsapp' src={whatsappGold}/>
+        <div className='whatsapp'>
+          <a href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!">
+            <img className='whatsapp' src={whatsappGold}/>
+          </a>
+        </div>
           
       </div>
     )

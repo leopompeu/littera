@@ -16,10 +16,10 @@ const Div1 = () => {
             <p className='subtitle'>A inovação e a solução que sua empresa busca</p>
             <p className='subtitle2'>Nós criamos para você!</p>
 
-            <p className='redirect'>Vamos nos conhecer!</p>
-            <Link to="#servicos" smooth className='cursor-default'>
-              <img src={arrowCircleDown} className='redirect-image cursor-pointer'/>
-            </Link>
+            <a to="/#servicos">
+              <p className='redirect'>Vamos nos conhecer!</p>
+              <img src={arrowCircleDown} className='redirect-image'/>
+            </a>
           </div>
         </section>
     )

@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/orcamentos" element={<Orçamentos />} />
         <Route path="/seguranca" element={<Seguranca />} />
         <Route path="/sites" element={<Sites />} />
-        <Route path="/sobre_nos" element={<SobreNos />} />
+        <Route path="/sobre" element={<SobreNos />} />
         <Route path="/privacidade" element={<Termos />} />
         <Route path="/valores" element={<Valores />} />
         <Route path="/lgpd" element={<LGPD />} />
