@@ -1,4 +1,4 @@
-import { littera, leo, kenji, anna, buda, batata, thomas, email, div7, telegram, celulares, celulares2, whatsapp, div1, div1Sites, divFv, divSolucionaire, div3, div3Sites, timeline, title2, image1, image2, facebook, instagram, linkedin, twitter, arrowCircleDown, menu, x } from "../assets";
+import { littera, leo, anna, buda, batata, thomas, email, div7, telegram, celulares, celulares2, whatsapp, div1, div1Sites, divFv, divSolucionaire, div3, div3Sites, timeline, title2, image1, image2, facebook, instagram, linkedin, twitter, arrowCircleDown, menu, x } from "../assets";
 
 export const header = [
     {
@@ -13,7 +13,7 @@ export const header = [
 
 export const navLinks = [
   {
-    id: "home",
+    id: "",
     title: "Home",
   },
   {
@@ -25,7 +25,7 @@ export const navLinks = [
     title: "Segurança digital",
   },
   {
-    id: "apps",
+    id: "aplicativos",
     title: "Aplicativos",
   },
   {
@@ -183,13 +183,6 @@ export const div5 = [
         name: "Léo Pompeu",
         age: "20 anos",
         img: leo,
-    },
-    {
-        id: "teamMember2",
-        role:"CTO",
-        name: "Adriano Kenji",
-        age: "21 anos",
-        img: kenji,
     },
     {
         id: "teamMember3",

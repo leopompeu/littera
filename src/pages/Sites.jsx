@@ -1,15 +1,35 @@
 import React from 'react'
 
 import { isMobile } from 'react-device-detect'
+import DiferencialSites from '../components/DiferencialSites'
+import Div1Sites from '../components/Div1Sites'
+import Footer from '../components/Footer'
+import Orcamento from '../components/Orcamento'
+import Timeline from '../components/Timeline'
+import styles from '../style'
 
 const Sites = () => {
-    if(isMobile){
-        return (
-            <div>Aplicativos</div>
-          )
-    } else {
-        
-    }
+    return (
+        <div className="bg w-full overflow-hidden">            
+            {/* Div1Sites */}
+            <div className={`bg ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Div1Sites/>
+              </div>
+            </div>
+    
+            {/* Body */}
+            <div className={`bg ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                <DiferencialSites/>
+                <Timeline/>
+                <Orcamento/>
+                <Footer/>
+              </div>
+            </div>
+    
+          </div>
+    )
 }
 
 export default Sites

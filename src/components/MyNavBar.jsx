@@ -3,6 +3,8 @@ import { menu, x, littera, line, linep } from '../assets'
 import { navLinks } from '../constants'
 import { Divide as Hamburger } from 'hamburger-react'
 
+import { useLocation } from 'react-router-dom'
+
 import styles from '../style'
 
 import { isMobile } from 'react-device-detect'
@@ -10,7 +12,7 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-
 
 const MyNavBar = () => {
   const [isOpen, setOpen] = useState(false)
-  
+  const location = useLocation();
 
   if(isMobile) {
     return (
@@ -18,8 +20,11 @@ const MyNavBar = () => {
         <nav className="w-full flex py-3 navbar">
             <Accordion className='w-full'>
               <AccordionItem>
-                <AccordionHeader>
+                <a href='/'>
                   <img src={littera} alt="littera" className=" littera w-[70px] [h-14px] "/>
+                </a>
+
+                <AccordionHeader>
                   <div className='hamburger'><Hamburger className='hamburger' color='#FFFFFF' size={20} toggled={isOpen} toggle={setOpen} rounded /></div>
                   
                 </AccordionHeader>
@@ -31,7 +36,7 @@ const MyNavBar = () => {
                         className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'margin15'}  text-white `}
                       >
                         <a href={`/${nav.id === 'home' ? '' : nav.id}`} className="text-white">{nav.title}</a>
-                        <img src={index === navLinks.length - 1 ? '' : linep} className={`mt-1`}/>
+                        <img src={index === navLinks.length - 1 ? '' : linep} className={location.pathname === "/" + nav.id ? 'line-big mt-1' : 'mt-1'}/>
                       </li>
                     ))}
                   </ul>
@@ -43,7 +48,7 @@ const MyNavBar = () => {
     )
   } else {
       return (
-        <div className={`${styles.paddingX} w-full `}>
+        <div className={`${styles.paddingX} w-full bg-header`}>
           <nav className="w-full flex py-6 justify-between items-center navbar">
       
             <img src={littera} alt="littera" className="w-[124px] [h-32px]"/>

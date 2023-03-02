@@ -15,7 +15,7 @@ const Home = () => {
             {/* Div1 */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
-                <Div1 />
+                <Div1/>
               </div>
             </div>
     

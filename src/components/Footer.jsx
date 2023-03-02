@@ -3,12 +3,15 @@ import React from 'react'
 import styles from '../style'
 import { isMobile } from 'react-device-detect'
 import { lineBig, map, instagram, linkedin, facebook, twitter, whatsapp, telegram, email } from '../assets'
+import { useLocation } from 'react-router-dom'
 
 
 const Footer = () => {
+    const location = useLocation();
+
     if(isMobile){
         return (
-            <div className={`flex md:flex-row flex-col ${styles.paddingY} footer-component`}>
+            <div className={`flex md:flex-row flex-col ${styles.paddingY} footer-component ${location.pathname === "/" ? '' : 'footer-sites'}`}>
                 <img src={lineBig} className='footer-line'/>
                 <div>
                     <div className='div1-footer'>

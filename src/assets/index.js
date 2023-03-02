@@ -15,7 +15,6 @@ import menu from "./list.svg";
 import x from "./x.svg";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
-import kenji from "./kenji.png";
 import leo from "./leo.png";
 import thomas from "./thomas.png";
 import littera from "./littera.png";
@@ -32,9 +31,6 @@ import email from "./email.svg";
 import telegram from "./telegram.svg";
 import whatsapp from "./whatsapp.svg";
 import whatsappGold from "./whatsappGold.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 import dotEmpty from "./dotEmpty.png";
 import dotFilled from "./dotFilled.png";
 import locationIcon from "./locationIcon.png";
@@ -42,6 +38,12 @@ import map from "./map.png";
 import card1 from "./card1.png"
 import card2 from "./card2.png"
 import card3 from "./card3.png"
+import div1Web from "./Div1Web.png"
+import card1web from "./card1web.png"
+import celularesSites from "./celular.png"
+import backgroundCelulares from "./backgroundCelulares.png"
+import precos from "./preco.png"
+import backgroundWeb from "./backgroundWeb.png"
 
 export {
   anna,
@@ -50,7 +52,6 @@ export {
   buda,
   leo,
   thomas,
-  kenji,
   celulares,
   celulares2,
   div1,
@@ -77,9 +78,6 @@ export {
   email,
   telegram,
   whatsapp,
-  people01,
-  people02,
-  people03,
   dotEmpty,
   dotFilled,
   whatsappGold,
@@ -87,5 +85,12 @@ export {
   map,
   card1,
   card2,
-  card3
+  card3,
+  div1Web,
+  card1web,
+  celularesSites,
+  backgroundCelulares,
+  precos,
+  backgroundWeb
+    
 };

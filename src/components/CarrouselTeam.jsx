@@ -2,7 +2,7 @@ import React from 'react'
 
 import { isMobile } from 'react-device-detect'
 import styles from '../style'
-import { leo, anna, thomas, buda, batata, kenji } from '../assets'
+import { leo, anna, thomas, buda, batata } from '../assets'
 
 import Carousel from 'nuka-carousel/lib/carousel'
 
