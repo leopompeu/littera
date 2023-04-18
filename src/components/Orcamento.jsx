@@ -23,6 +23,24 @@ const Orcamento = () => {
                 </div>
             </section>
           )
+    } else {
+        return (
+            <section id="orcamento" className={`md:flex-row flex-col `}>
+                <div className='div-orcamento-web'>
+                    <img src={precos} className='precos-web'/>
+                    <div className='card-orcamentos-web'>
+                        <h1 className='title-card-orcamentos-web'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
+                        <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
+                        <div className='buttons-card-orcamentos-web'>
+                            <a href='/orcamentos'>
+                                <button className='button-card-orcamentos-web'>Orçamento</button>
+                            </a>
+                                <button className='button-card-orcamentos-web '>Contato</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        )
     }
 
 }

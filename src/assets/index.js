@@ -49,6 +49,7 @@ import webSolucionare from "./webSolucionare.png"
 import imgDivSites from "./imgDivSites.png"
 import imgDif1 from "./imgDif1.png"
 import imgDif2 from "./imgDif2.png"
+import timelineWeb from "./timeline-web.png"
 
 
 export {
@@ -102,6 +103,7 @@ export {
   webSolucionare,
   imgDivSites,
   imgDif1,
-  imgDif2
+  imgDif2,
+  timelineWeb
     
 };

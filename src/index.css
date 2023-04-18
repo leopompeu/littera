@@ -2230,3 +2230,120 @@
 
   color: #FFFFFF;
 }
+
+.title-timeline-web{
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-web{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.div-orcamento-web{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.precos-web{
+  margin-top: 10%;
+}
+
+.card-orcamentos-web{
+  width: 670px;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-top: 10%;
+  background-color: #5E18CA;
+  border-radius: 15px;
+}
+
+.title-card-orcamentos-web{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.subtitle-card-orcamentos-web{
+  margin-top: 10%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttons-card-orcamentos-web{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.button-card-orcamentos-web{
+  justify-content: center;
+
+  width: 250px;
+  height: 50px;
+
+  margin-left: 5%;
+
+  background: #EBBE13;
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 31px;
+  /* identical to box height, or 221% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

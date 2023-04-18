@@ -1,6 +1,6 @@
 import React from 'react'
 import { isMobile } from 'react-device-detect'
-import { timeline, title2 } from '../assets'
+import { timeline, timelineWeb, title2 } from '../assets'
 
 import styles from '../style'
 
@@ -11,6 +11,15 @@ const Timeline = () => {
                 <div className='timeline-div'>
                     <img src={ title2 } className='title-timeline'/>
                     <img src={timeline} className='timeline'/>
+                </div>
+            </section>
+          )
+    } else {
+        return (
+            <section id="timeline" className={`md:flex-row flex-col`}>
+                <div className='timeline-div'>
+                    <img src={ title2 } className='title-timeline-web'/>
+                    <img src={ timelineWeb } className='timeline-web'/>
                 </div>
             </section>
           )
