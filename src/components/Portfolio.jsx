@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 
-import { celulares, celulares2 } from '../assets'
+import { celulares, celulares2, webFv, webSolucionare } from '../assets'
 
 import { isMobile } from 'react-device-detect'
 import { useEffect } from 'react'
@@ -31,6 +31,26 @@ const Portfolio = () => {
           </div>
         </div>
 
+      </section>
+    )
+  } else {
+    return (
+      <section id="diferencial" className={`flex flex-col ${styles.paddingY}`}>
+        <div className='div-portfolio'>
+          <h1 className='text-portfolio-web'>VEJA ALGUNS DE NOSSOS TRABALHOS</h1>
+          <div className='bg-fv-web'>
+            <br/>
+            <img className='image-mobile-fv' src={celulares}/>
+            <img className='image-web-fv' src={webFv}/>
+            <h1 className='text-fv-web'>FV Publicidades</h1>
+          </div>
+          <div className='bg-solucionare-web'>
+            <br/>
+            <img className='image-mobile-solucionare' src={celulares2}/>
+            <img className='image-web-solucionare' src={webSolucionare}/>
+            <h1 className='text-solucionare-web'>Solucionare</h1>
+          </div>
+        </div>
       </section>
     )
   }

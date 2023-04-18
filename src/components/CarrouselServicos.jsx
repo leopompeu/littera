@@ -10,7 +10,7 @@ function CardServicos() {
             <div className='content-center carousel' data-aos="fade-up">
                 <Carousel 
                     autoplay= {true}
-                    autoplayInterval = {5000}
+                    autoplayInterval = {3500}
                     wrapAround = {true}
                     defaultControlsConfig={{
                         pagingDotsStyle: {

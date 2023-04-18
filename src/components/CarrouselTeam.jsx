@@ -34,6 +34,26 @@ const CarrouselTeam = () => {
         </div>
       </section>
     )
+  } else {
+    return(
+      <section id="carousel-team" className={`flex flex-col ${styles.paddingY}`}>
+        <h1 className='title-team-web'>CONHEÇA NOSSO TIME</h1>
+        <div className='carousel-team-web container-carousel'>
+          <a href='/sobre'>
+              <div className='images-carousel leo-carousel-web'>
+              </div>
+              <div className='images-carousel thomas-carousel-web'>
+              </div>
+              <div className='images-carousel buda-carousel-web'>
+              </div>
+              <div className='images-carousel batata-carousel-web'>
+              </div>
+              <div className='images-carousel anna-carousel-web'>
+              </div>
+          </a>
+        </div>
+      </section>
+    )
   }
 }
 

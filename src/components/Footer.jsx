@@ -78,7 +78,76 @@ const Footer = () => {
             </div>
           )
     } else {
-
+        return(
+            <div className={`flex flex-col ${location.pathname === "/" ? '' : 'footer-sites'}`}>
+                <img src={lineBig} className='footer-line-web'/>
+                <div className='footer-component-web'>
+                    <div className='div-footer'>
+                        <h1 className='footer-title title1-footer'>Você pode se interessar</h1>
+                        <div className='footer-links-div'>
+                            <div className='footer-links-div-div'>
+                                <a href='/sites'>
+                                    <p className='link-footer-web'>Sites</p>
+                                </a>
+                                <a href='/seguranca'>
+                                    <p className='link-footer-web'>Segurança digital</p>
+                                </a>
+                                <a href='/aplicativos'>
+                                    <p className='link-footer-web'>Aplicativos</p>
+                                </a>
+                            </div>
+                            <div className='footer-links-div-div'>
+                                <a href='/orcamentos'>
+                                    <p className='link-footer-web'>Orçamentos</p>
+                                </a>
+                                <a href='/sobre'>
+                                    <p className='link-footer-web'>Sobre nós</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='div-footer'>
+                        <h1 className='footer-title title2-footer'>Conecte-se!</h1>
+                        <div className='footer-connect-div'>
+                            <a href='https://www.instagram.com'>
+                                <img src={instagram}/>
+                            </a>
+                            <a href='https://www.facebook.com'>
+                                <img src={facebook} />
+                            </a>
+                            <a href='https://www.linkedin.com/company/littera-it/'>
+                                <img src={linkedin} />
+                            </a>
+                            <a href='https://www.twitter.com'>
+                                <img src={twitter} />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='div-footer'>
+                        <h1 className='footer-title title2-footer'>Contato</h1>
+                        <div className='footer-connect-div'>
+                            <a href='https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!'>
+                                <img src={whatsapp} />
+                            </a>
+                            <a href='https://t.me/leopompeu'>
+                                <img src={telegram} />
+                            </a>
+                            <a href='mailto:leopompeu1209@gmail.com?subject=Littera&body=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Littera!'>
+                                <img src={email} />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='div-footer'>
+                        <h1 className='footer-title title4-footer'>Nosso QG</h1>
+                        <a href='https://www.google.com.br/maps/place/R.+Jaú,+880+-+Boqueirão,+Praia+Grande+-+SP,+11700-270/@-24.0103153,-46.4154091,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce1db10f7116ed:0x6fa4eff42d67b32e!8m2!3d-24.0103153!4d-46.4132151!16s%2Fg%2F11g1gq6y7v'>
+                            <img src={map} className='map-web'/>
+                        </a>
+                    </div>
+                </div>
+                <h1 className='love-web'>Feito com 💜 por Littera</h1>
+            </div>
+        )
+        
     }
 
 }

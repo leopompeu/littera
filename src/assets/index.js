@@ -44,6 +44,12 @@ import celularesSites from "./celular.png"
 import backgroundCelulares from "./backgroundCelulares.png"
 import precos from "./preco.png"
 import backgroundWeb from "./backgroundWeb.png"
+import webFv from "./webFv.png"
+import webSolucionare from "./webSolucionare.png"
+import imgDivSites from "./imgDivSites.png"
+import imgDif1 from "./imgDif1.png"
+import imgDif2 from "./imgDif2.png"
+
 
 export {
   anna,
@@ -91,6 +97,11 @@ export {
   celularesSites,
   backgroundCelulares,
   precos,
-  backgroundWeb
+  backgroundWeb,
+  webFv,
+  webSolucionare,
+  imgDivSites,
+  imgDif1,
+  imgDif2
     
 };

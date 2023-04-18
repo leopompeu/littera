@@ -27,7 +27,7 @@ const Servicos = () => {
     )
   } else {
     return (
-      <section id="servicos" className={`${styles.paddingX}`}>
+      <section id="servicos" className={`${styles.paddingX} container-contac`}>
         <div className='content-center servicos-bg'>
           <h1 className='title-servicos-web'>O QUE PODEMOS SOLUCIONAR PARA</h1>
           <h1 className='title-servicos-web2'>VOCÊ?</h1>

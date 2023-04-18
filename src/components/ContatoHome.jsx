@@ -10,8 +10,17 @@ const ContatoHome = () => {
 
   if(isMobile){
     return (
-      <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+      <section id="contato" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
         <div className='footer'>
+          <Contato data-aos="fade-up"/>
+          <Footer/>
+        </div>
+      </section>
+    )
+  } else {
+    return(
+      <section id="contato" className={`flex flex-col ${styles.paddingY}`}>
+        <div className='footer-web'>
           <Contato data-aos="fade-up"/>
           <Footer/>
         </div>
