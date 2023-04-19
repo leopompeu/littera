@@ -747,6 +747,13 @@
   object-fit: cover;
 }
 
+.images-team-web {
+  margin-left: -150px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -1673,15 +1680,10 @@
   margin-bottom: 10%;
 }
 
-.carousel-team-web::after{
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .image-carousel-web{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .container-carousel{
@@ -1693,6 +1695,7 @@
 
 .leo-carousel-web{
   background-image: url(./assets/leoWeb.png);
+  object-fit: cover;
   width: 200px;
   height: 200px;
 }
@@ -1706,6 +1709,24 @@
 }
 .anna-carousel-web{
   background-image: url(./assets/annaWeb.png);
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+}
+.kauan-carousel-web{
+  background-image: url(./assets/kauan.jpg);
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+}
+.tiao-carousel-web{
+  background-image: url(./assets/tiao.jpg);
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+}
+.serjo-carousel-web{
+  background-image: url(./assets/serjo.jpg);
   object-fit: fill;
   width: 200px;
   height: 200px;
@@ -1731,8 +1752,35 @@
     -o-animation: fadeinteam 1s; /* Opera < 12.1 */
        animation: fadeinteam 1s;
 }
+
 .anna-carousel-web:hover{
   background-image: url(./assets/annaHover.png);
+  -webkit-animation: fadeinteam 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinteam 1s; /* Firefox < 16 */
+   -ms-animation: fadeinteam 1s; /* Internet Explorer */
+    -o-animation: fadeinteam 1s; /* Opera < 12.1 */
+       animation: fadeinteam 1s;
+}
+
+.serjo-carousel-web:hover{
+  background-image: url(./assets/sergioHover.png);
+  -webkit-animation: fadeinteam 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinteam 1s; /* Firefox < 16 */
+   -ms-animation: fadeinteam 1s; /* Internet Explorer */
+    -o-animation: fadeinteam 1s; /* Opera < 12.1 */
+       animation: fadeinteam 1s;
+}
+
+.tiao-carousel-web:hover{
+  background-image: url(./assets/tiaoHover.png);
+  -webkit-animation: fadeinteam 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeinteam 1s; /* Firefox < 16 */
+   -ms-animation: fadeinteam 1s; /* Internet Explorer */
+    -o-animation: fadeinteam 1s; /* Opera < 12.1 */
+       animation: fadeinteam 1s;
+}
+.kauan-carousel-web:hover{
+  background-image: url(./assets/kauanHover.png);
   -webkit-animation: fadeinteam 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadeinteam 1s; /* Firefox < 16 */
    -ms-animation: fadeinteam 1s; /* Internet Explorer */

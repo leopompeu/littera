@@ -1,7 +1,7 @@
-import anna from "./anna.png";
+import anna from "./annaWeb.png";
 import arrowCircleDown from "./arrowCircleDown.svg";
-import batata from "./batata.png";
-import buda from "./buda.png";
+import batata from "./batataWeb.png";
+import buda from "./budaWeb.png";
 import celulares from "./celulares.png";
 import celulares2 from "./celulares2.png";
 import div1 from "./div1.png";
@@ -15,8 +15,8 @@ import menu from "./list.svg";
 import x from "./x.svg";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
-import leo from "./leo.png";
-import thomas from "./thomas.png";
+import leo from "./leoWeb.png";
+import thomas from "./thomasWeb.png";
 import littera from "./littera.png";
 import timeline from "./timeline.png";
 import title2 from "./title2.png";
@@ -50,6 +50,9 @@ import imgDivSites from "./imgDivSites.png"
 import imgDif1 from "./imgDif1.png"
 import imgDif2 from "./imgDif2.png"
 import timelineWeb from "./timeline-web.png"
+import tiao from "./tiao.jpg"
+import serjo from "./serjo.jpg"
+import kauan from "./kauan.jpg"
 
 
 export {
@@ -104,6 +107,9 @@ export {
   imgDivSites,
   imgDif1,
   imgDif2,
-  timelineWeb
+  timelineWeb,
+  serjo,
+  tiao,
+  kauan
     
 };

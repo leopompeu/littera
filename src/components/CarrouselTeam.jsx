@@ -2,7 +2,7 @@ import React from 'react'
 
 import { isMobile } from 'react-device-detect'
 import styles from '../style'
-import { leo, anna, thomas, buda, batata } from '../assets'
+import { leo, anna, thomas, buda, batata, serjo, tiao, kauan } from '../assets'
 
 import Carousel from 'nuka-carousel/lib/carousel'
 
@@ -29,6 +29,15 @@ const CarrouselTeam = () => {
               <div>
                   <img className='images-team' src={anna} />
               </div>
+              <div>
+                  <img className='images-team' src={serjo} />
+              </div>
+              <div>
+                  <img className='images-team' src={tiao} />
+              </div>
+              <div>
+                  <img className='images-team' src={kauan} />
+              </div>
             </Carousel>
           </a>
         </div>
@@ -40,16 +49,24 @@ const CarrouselTeam = () => {
         <h1 className='title-team-web'>CONHEÇA NOSSO TIME</h1>
         <div className='carousel-team-web container-carousel'>
           <a href='/sobre'>
-              <div className='images-carousel leo-carousel-web'>
+          <Carousel slidesToShow={6} autoplay={true} autoplayInterval={2000} renderBottomCenterControls={false} cellAlign={`center`} renderCenterLeftControls={false} renderCenterRightControls={false} wrapAround = {true}>
+              <div className='images-team-web leo-carousel-web'>
               </div>
-              <div className='images-carousel thomas-carousel-web'>
+              <div className='images-team-web thomas-carousel-web'>
               </div>
-              <div className='images-carousel buda-carousel-web'>
+              <div className='images-team-web buda-carousel-web'>
               </div>
-              <div className='images-carousel batata-carousel-web'>
+              <div className='images-team-web batata-carousel-web'>
               </div>
-              <div className='images-carousel anna-carousel-web'>
+              <div className='images-team-web anna-carousel-web'>
               </div>
+              <div className='images-team-web serjo-carousel-web'>
+              </div>
+              <div className='images-team-web tiao-carousel-web'>
+              </div>
+              <div className='images-team-web kauan-carousel-web'>
+              </div>
+            </Carousel>
           </a>
         </div>
       </section>
