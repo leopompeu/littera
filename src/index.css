@@ -2231,10 +2231,11 @@
 
 .card-diferencial-site{
   background-image: url('./assets/cardBgDiferencial.png');
-  height: 660px;
-  width: 470px;
+  height: 550px;
+  width: 400px;
   display: inline-block;
   margin-right: 2.5%;
+  border-radius: 5%;
 
 }
 
@@ -2253,7 +2254,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 31px;
   /* identical to box height, or 97% */
 
@@ -2270,7 +2271,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   display: flex;
   align-items: center;
@@ -2395,3 +2396,18 @@
   order: 0;
   flex-grow: 0;
 }
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #000000;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5e18ca;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid #000000;  /* creates padding around scroll thumb */
+}
+
