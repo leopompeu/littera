@@ -18,6 +18,8 @@ import { MyNavBar } from "./components";
 import React from 'react'
 import Footer from "./components/Footer";
 
+import TagManager from "react-gtm-module";
+
 const App = () => {
 
   return (
