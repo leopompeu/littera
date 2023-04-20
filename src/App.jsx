@@ -20,6 +20,7 @@ import Footer from "./components/Footer";
 
 import TagManager from "react-gtm-module";
 import { Helmet } from "react-helmet";
+import ReactGA from "react-ga4";
 
 const App = () => {
 
