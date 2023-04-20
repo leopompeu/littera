@@ -65,6 +65,11 @@ import desktop from "./desktop.png"
 import backgroundDesktop from "./backgroundDesktop.png"
 import precosSeguranca from "./precosSeguranca.png"
 import title2Seguranca from "./title2Seguranca.png"
+import image1Seguranca from "./image1Seguranca.png"
+import image2Seguranca from "./image2Seguranca.png"
+import imageDifSeguranca from "./imageDifSeguranca.png"
+import imageDifSeguranca2 from "./imageDifSeguranca2.png"
+
  
 
 export {
@@ -134,6 +139,10 @@ export {
   desktop,
   backgroundDesktop,
   precosSeguranca,
-  title2Seguranca
+  title2Seguranca,
+  image1Seguranca,
+  image2Seguranca,
+  imageDifSeguranca,
+  imageDifSeguranca2
     
 };
