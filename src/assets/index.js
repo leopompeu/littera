@@ -53,7 +53,15 @@ import timelineWeb from "./timeline-web.png"
 import tiao from "./tiao.jpg"
 import serjo from "./serjo.jpg"
 import kauan from "./kauan.jpg"
-
+import celulares3 from "./celulares3.png"
+import backgroundApps from "./backgroundApps.png"
+import image1Apps from "./image1Apps.png"
+import image2Apps from "./image2Apps.png"
+import title2Apps from "./title2Apps.png"
+import precosApps from "./precosApps.png"
+import imgDifapps from "./imgDifapps.png"
+import imgDifapps2 from "./imgDifapps2.png"
+ 
 
 export {
   anna,
@@ -110,6 +118,15 @@ export {
   timelineWeb,
   serjo,
   tiao,
-  kauan
+  kauan,
+  celulares3,
+  backgroundApps,
+  image1Apps,
+  image2Apps,
+  title2Apps,
+  precosApps,
+  imgDifapps,
+  imgDifapps2
+
     
 };
