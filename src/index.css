@@ -1507,7 +1507,7 @@
   font-weight: 800;
   font-size: 14px;
   line-height: 31px;
-  color: #FFFFFF;
+  color: #5e18ca;
 }
 
 .button-right{
@@ -2198,11 +2198,12 @@
 
 .bg-port-sites{
   background-image: url('./assets/bg-port-sites.png');
-  margin-top: -10.5%;
+  margin-top: -9.85%;
+  background-repeat: no-repeat;
 }
 
 .blank2{
-  margin-top: 13%;
+  margin-top: 12%;
 }
 
 
@@ -2390,7 +2391,7 @@
 
   text-align: center;
 
-  color: #FFFFFF;
+  color: #5e18ca;
 
 
   /* Inside auto layout */

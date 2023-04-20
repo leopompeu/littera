@@ -15,9 +15,9 @@ const OrcamentoSeguranca = () => {
                         <p className='subtitle-card-orcamentos'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos'>
                             <a href='/orcamentos'>
-                                <button className='button-card-orcamentos'>Orçamento</button>
+                                <button className='button-card-orcamentos'>ORÇAMENTO</button>
                             </a>
-                                <button className='button-card-orcamentos '>Contato</button>
+                                <button className='button-card-orcamentos '>CONTATO</button>
                         </div>
                     </div>
                 </div>
@@ -33,9 +33,9 @@ const OrcamentoSeguranca = () => {
                         <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos-web'>
                             <a href='/orcamentos'>
-                                <button className='button-card-orcamentos-web'>Orçamento</button>
+                                <button className='button-card-orcamentos-web'>ORÇAMENTO</button>
                             </a>
-                                <button className='button-card-orcamentos-web '>Contato</button>
+                                <button className='button-card-orcamentos-web '>CONTATO</button>
                         </div>
                     </div>
                 </div>
