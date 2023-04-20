@@ -2127,7 +2127,8 @@
 
 .bg-div-sites-web{
   background-image: url("./assets/bg-div-sites-web.png");
-  height: 760px;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .div-title-sites{
