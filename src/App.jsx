@@ -19,6 +19,7 @@ import React from 'react'
 import Footer from "./components/Footer";
 
 import TagManager from "react-gtm-module";
+import { Helmet } from "react-helmet";
 
 const App = () => {
 
