@@ -2440,3 +2440,39 @@ body::-webkit-scrollbar-thumb {
 
   color: #5E18CA;
 }
+
+.bg-div-seguranca{
+  background-image: url("./assets/div1seguranca.png");
+  height: 580px;
+  margin-top: -4%;
+}
+
+.title-diferencial-site{
+  margin-top: 30%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 92% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.title-timeline-seguranca{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-div-seguranca-web{
+  background-image: url("./assets/bg-div-background-seguranca.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+}

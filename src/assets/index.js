@@ -61,6 +61,10 @@ import title2Apps from "./title2Apps.png"
 import precosApps from "./precosApps.png"
 import imgDifapps from "./imgDifapps.png"
 import imgDifapps2 from "./imgDifapps2.png"
+import desktop from "./desktop.png"
+import backgroundDesktop from "./backgroundDesktop.png"
+import precosSeguranca from "./precosSeguranca.png"
+import title2Seguranca from "./title2Seguranca.png"
  
 
 export {
@@ -126,7 +130,10 @@ export {
   title2Apps,
   precosApps,
   imgDifapps,
-  imgDifapps2
-
+  imgDifapps2,
+  desktop,
+  backgroundDesktop,
+  precosSeguranca,
+  title2Seguranca
     
 };
