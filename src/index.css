@@ -1419,7 +1419,7 @@
 }
 
 .timeline-div{
-  margin-top: 5%;
+  margin-top: -5%;
 }
 
 .title-timeline{
@@ -2198,7 +2198,7 @@
 
 .bg-port-sites{
   background-image: url('./assets/bg-port-sites.png');
-  margin-top: -10%;
+  margin-top: -10.5%;
 }
 
 .blank2{
@@ -2208,14 +2208,15 @@
 
 .bg-div3-sites-web{
   background-color: #5E18CA;
-  height: 1100px;
+  height: 850px;
   width: 1366px;
   margin-top: -9.8%;
+  
 }
 
 .title-diferencial-site-web{
 
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
@@ -2292,7 +2293,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .div-orcamento-web{
@@ -2300,6 +2301,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -150px;
 }
 
 .precos-web{
@@ -2440,7 +2442,6 @@ body::-webkit-scrollbar-thumb {
 
   color: #5E18CA;
 }
-
 .bg-div-seguranca{
   background-image: url("./assets/div1seguranca.png");
   height: 580px;
