@@ -58,7 +58,7 @@ const MyNavBar = () => {
                   key={nav.id}
                   className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white `}
                 >
-                  <a href={`#${nav.id}`} className="text-white">{nav.title}</a>
+                  <a href={`/${nav.id}`} className="text-white">{nav.title}</a>
 
                 </li>
               ))}
