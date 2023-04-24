@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@react-spring/parallax": "^9.7.2",
     "@react-spring/web": "^9.7.0",
     "@szhsin/react-accordion": "^1.2.0",
     "aos": "^2.3.4",
@@ -27,6 +28,7 @@
     "react-headless-accordion": "^1.0.2",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
+    "react-parallax": "^3.5.1",
     "react-router-dom": "^6.8.1",
     "react-router-hash-link": "^2.4.3",
     "react-ui-scrollspy": "^2.3.0",

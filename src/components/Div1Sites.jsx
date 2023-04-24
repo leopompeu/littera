@@ -1,7 +1,9 @@
 import React from 'react'
 import { isMobile } from 'react-device-detect'
-import { backgroundCelulares, celularesSites, imgDivSites } from '../assets'
+import { backgroundCelulares, celularesSites, down, bgDivSite, up } from '../assets'
 import styles from '../style'
+import { Parallax } from '@react-spring/parallax'
+
 
 const Div1Sites = () => {
     if(isMobile){
@@ -22,11 +24,7 @@ const Div1Sites = () => {
     } else {
         return (
             <section id="home" className={`md:flex-row flex-col ${styles.paddingY}`}>
-
-                
-                <div className='bg-div-sites-web' >
-                    <h1>ESTILO</h1>
-                </div>
+                <img src={bgDivSite}></img>
                 <div className='bg-port-sites'>
                     <h1 className='blank'>.</h1>
                     <h1 className='conteudo-sites'>SITES MODERNOS E</h1>

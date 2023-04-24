@@ -69,6 +69,10 @@ import image1Seguranca from "./image1Seguranca.png"
 import image2Seguranca from "./image2Seguranca.png"
 import imageDifSeguranca from "./imageDifSeguranca.png"
 import imageDifSeguranca2 from "./imageDifSeguranca2.png"
+import up from "./up.png"
+import down from "./down.png"
+import bgDivSite from "./bg-div-sites-web.png"
+import textDiv from "./text-div.png"
 
  
 
@@ -143,6 +147,10 @@ export {
   image1Seguranca,
   image2Seguranca,
   imageDifSeguranca,
-  imageDifSeguranca2
+  imageDifSeguranca2,
+  up,
+  down,
+  bgDivSite,
+  textDiv
     
 };
