@@ -72,14 +72,7 @@ const Contato = () => {
               </div>
             </a>
           </div>
-          <div className='container-wpp'>
-            <h1 className='whatsapp-text-web'>Ou nos chame pelo whatsapp!</h1>
-            <div className='whatsapp'>
-              <a href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!">
-                <img className='whatsapp' src={whatsappGold}/>
-              </a>
-            </div>
-          </div>
+          
         </div>          
       </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { isMobile } from 'react-device-detect'
-import { backgroundDesktop, desktop } from '../assets'
+import { backgroundDesktop, bgDivSeguranca, desktop } from '../assets'
 import styles from '../style'
 
 const Div1Seguranca = () => {
@@ -24,9 +24,7 @@ const Div1Seguranca = () => {
             <section id="home" className={`md:flex-row flex-col ${styles.paddingY}`}>
 
                 
-                <div className='bg-div-seguranca-web' >
-                    <h1>ESTILO</h1>
-                </div>
+                <img src={bgDivSeguranca}></img>
                 <div className='bg-port-sites'>
                     <h1 className='blank'>.</h1>
                     <h1 className='conteudo-sites'>SEU NEGÓCIO MAIS</h1>

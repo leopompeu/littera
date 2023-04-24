@@ -431,7 +431,7 @@
 .bg-div3 {
   background-image: url("./assets/div3.png");
   height: 978px;
-  margin-top: 95px;
+  margin-top: -95px;
 }
 
 .title-div3 {
@@ -1134,6 +1134,7 @@
   width: 100%;
   height: 750px;
   margin-top: -8%;
+  z-index: 7;
 }
 
 .title-web{
@@ -1245,7 +1246,7 @@
 }
 
 .title-servicos-web{
-  margin-top: 10%;
+  margin-top: 12%;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -1516,12 +1517,10 @@
 }
 
 .bg-div3-web{
-  background-color: #5E18CA;
+  background-image: url(./assets/bg-dif-home.png);
+  height: 845px;
+  margin-top: -17%;
   padding-bottom: 10%;
-}
-
-.servicos-bg{
-
 }
 
 .title-div3-web {
@@ -1648,7 +1647,7 @@
 }
 
 .sticky-div{
-  margin-bottom: 30%;
+  margin-bottom: 10%;
 }
 
 .text-portfolio-web{
@@ -2197,6 +2196,9 @@
   margin-top: 9.85%;
 }
 
+.blank3{
+}
+
 .bg-port-sites{
   background: rgba(red, green, blue, .05);
   background-image: url('./assets/bg-port-sites.png');
@@ -2205,14 +2207,18 @@
   }
 
 .blank2{
-  margin-top: 12%;
+  margin-top: 50%;
 }
 
+.blank3{
+  margin-top: 20%;
+}
 
 .bg-div3-sites-web{
   background-image: url('./assets/bg-dif-sites.png');
   height: 1170px;
   width: 1366px;
+  margin-top: -2%;
    
 }
 
@@ -2299,7 +2305,7 @@
 }
 
 .div-orcamento-web{
-  margin-top: -10%;
+  margin-top: -60%;
   display: flex;
   align-items: center;
   justify-content: center;
