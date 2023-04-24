@@ -25,7 +25,7 @@ const OrcamentoApps = () => {
           )
     } else {
         return (
-            <section id="orcamento" className={`md:flex-row flex-col `}>
+            <section id="orcamento" className={`md:flex-row flex-col`}>
                 <div className='div-orcamento-web'>
                     <img src={precosApps} className='precos-web'/>
                     <div className='card-orcamentos-web'>

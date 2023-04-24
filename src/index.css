@@ -2202,7 +2202,7 @@
   background-image: url('./assets/bg-port-sites.png');
   margin-top: -15%;
   background-repeat: no-repeat;
-  margin-bottom: -9%;
+  margin-bottom: -20%;
 }
 
 .blank2{
@@ -2214,8 +2214,7 @@
   background-image: url('./assets/bg-dif-sites.png');
   height: 1170px;
   width: 1366px;
-  margin-top: -9.8%;
-  
+   
 }
 
 .title-diferencial-site-web{
@@ -2301,11 +2300,11 @@
 }
 
 .div-orcamento-web{
-  margin-top: 5%;
+  margin-top: -10%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -150px;
+ 
 }
 
 .precos-web{
