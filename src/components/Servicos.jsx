@@ -27,11 +27,13 @@ const Servicos = () => {
     )
   } else {
     return (
-      <section id="servicos" className={`${styles.paddingX} container-contac`}>
-        <div className='content-center servicos-bg'>
+      <section id="servicos" className={`container-contac`}>
+        <div className='content-center bg-port-sites'>
+          <h1>.</h1>
           <h1 className='title-servicos-web'>O QUE PODEMOS SOLUCIONAR PARA</h1>
           <h1 className='title-servicos-web2'>VOCÊ?</h1>
           <img src={card1web} className="sticky-div"></img>
+          <h1 className='blank3'>.</h1>
         </div>
       </section>
     )

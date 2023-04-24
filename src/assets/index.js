@@ -73,6 +73,8 @@ import up from "./up.png"
 import down from "./down.png"
 import bgDivSite from "./bg-div-sites-web.png"
 import textDiv from "./text-div.png"
+import bgDivApp from "./div1AppsWeb.png"
+import bgDivSeguranca from "./bg-div-background-seguranca.png"
 
  
 
@@ -151,6 +153,8 @@ export {
   up,
   down,
   bgDivSite,
-  textDiv
+  textDiv,
+  bgDivApp,
+  bgDivSeguranca
     
 };
