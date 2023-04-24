@@ -1421,6 +1421,7 @@
 
 .timeline-div{
   margin-top: -5%;
+  margin-bottom: -15%;
 }
 
 .title-timeline{
@@ -1857,8 +1858,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 555px;
+  height: 470px;
   width: 630px;
+  border-radius: 5%;
   background-image: url(./assets/bgContato.png);
 }
 
@@ -1900,6 +1902,7 @@
   backdrop-filter: blur(1px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 5px;
+  
 }
 
 .contact-large-web{
@@ -2482,3 +2485,36 @@ body::-webkit-scrollbar-thumb {
 
 .diferencial{}
 
+input {
+  background-color: transparent;
+  margin-left: 7px;
+  font-family: 'Poppins', sans-serif;
+  width: 250px;
+  font-size: 12px;
+}
+
+#email {
+  width: 560px;
+}
+
+textarea {
+  background-color: transparent;
+  margin-left: 10px;
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  input {
+    width: 80%;
+  }
+
+  #email {
+    width: 80%;
+  }
+
+  textarea {
+    
+  }
+}
