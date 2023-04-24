@@ -2,8 +2,16 @@ import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { backgroundDesktop, bgDivSeguranca, desktop } from '../assets'
 import styles from '../style'
+import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+
 
 const Div1Seguranca = () => {
+    
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    })
     if(isMobile){
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -12,7 +20,7 @@ const Div1Seguranca = () => {
                 <div className='containter'>
                     <h1 className='conteudo-sites'>SEU NEGÓCIO MAIS</h1>
                     <h1 className='conteudo-sites2'>SEGURO!</h1>
-                    <div className='div-celulares'>
+                    <div className='div-celulares' data-aos="zoom-in">
                         <img className='background-celular' src={backgroundDesktop}/>
                         <img className='image-celular' src={desktop}/>
                     </div>
@@ -29,7 +37,7 @@ const Div1Seguranca = () => {
                     <h1 className='blank'>.</h1>
                     <h1 className='conteudo-sites'>SEU NEGÓCIO MAIS</h1>
                     <h1 className='conteudo-sites2-web'>SEGURO!</h1>
-                    <div className='div-celulares'>
+                    <div className='div-celulares' data-aos="zoom-in">
                         <img className='background-celular' src={backgroundDesktop}/>
                         <img className='image-celular-sites' src={desktop}/>
                         <h1 className='blank2'>.</h1>
