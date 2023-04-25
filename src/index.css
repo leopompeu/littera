@@ -295,7 +295,7 @@
 
 .subtitle2 {
   justify-content: center;
-  margin-top: -10px;
+  margin-top: -20px;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -1229,6 +1229,7 @@
 }
 
 .subtitle-web2{
+  margin-top: -20px;
   justify-content: center;
 
   font-family: 'Poppins';
@@ -2606,7 +2607,7 @@ textarea {
 .image1-proposito{
   margin-top: -10%;
   margin-left: 0%;
-  margin-right: 5%;
+  margin-right: 10%;
   height: 578.5px;
   width: 360px;
   border-radius: 20px;
@@ -2617,9 +2618,9 @@ textarea {
 .card-proposito-web{
   height: 290px;
   width: auto;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 8%;
-  margin-right: 5%;
+  margin-right: 10%;
   background: #EBBE13;
   border-radius: 20px;
   z-index: -1;
@@ -2671,9 +2672,9 @@ textarea {
 }
 
 .image1-historia{
-  margin-top: 10%;
-  margin-left: 0%;
-  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 0%;
   height: 578.5px;
   width: 360px;
   border-radius: 20px;
@@ -2684,8 +2685,8 @@ textarea {
 .card-historia-web{
   height: 290px;
   width: auto;
-  margin-top: 20%;
-  margin-left: 8%;
+  margin-top: 15%;
+  margin-left: 20%;
   margin-right: 5%;
   background: #EBBE13;
   border-radius: 20px;
@@ -2693,23 +2694,23 @@ textarea {
 }
 
 .textbox-historia-web {
-  width: 60%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 3%;
+  width: 75%;
+  margin-left: 18%;
+  margin-right: 10%;
+  padding-top: 1%;
 }
 
 .text-historia-web{
   margin-top: 5%;
-
+  margin-left: 10%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
   display: flex;
-  align-items: flex-end;
-  text-align: end;
+  align-items: flex-start;
+  text-align: start;
   
 
   color: #5E18CA;
@@ -2739,4 +2740,76 @@ textarea {
 
 #historia {
   margin-bottom: -150px;
+}
+
+.title-conheca {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 31px;
+  /* identical to box height, or 97% */
+  
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.div-carousel-item{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 930px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background: linear-gradient(180deg, #5E18CA 0%, rgba(94, 24, 202, 0) 100%);
+  border-radius: 16px;
+}
+
+.img-carousel{
+  height: 150px;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.txt-carousel{
+  height: 24px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+.txt-carousel1{
+  
+  width: auto;
+  height: 24px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+
+.div-infos{
+  display: flex;
+}
+
+.div-item-infos{
+  margin-left: 20px;
 }
