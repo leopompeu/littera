@@ -21,9 +21,9 @@ const Sites = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
+                <Orcamento/>
                 <DiferencialSites/>
                 <Timeline/>
-                <Orcamento/>
                 <Footer/>
               </div>
             </div>

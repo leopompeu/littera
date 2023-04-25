@@ -21,9 +21,9 @@ const Aplicativos = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
+                <OrcamentoApps/>
                 <DiferencialApps/>
                 <TimelineApps/>
-                <OrcamentoApps/>
                 <Footer/>
               </div>
             </div>

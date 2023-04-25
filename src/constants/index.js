@@ -13,10 +13,6 @@ export const header = [
 
 export const navLinks = [
   {
-    id: "",
-    title: "Home",
-  },
-  {
     id: "sites",
     title: "Sites",
   },
@@ -27,10 +23,6 @@ export const navLinks = [
   {
     id: "aplicativos",
     title: "Aplicativos",
-  },
-  {
-    id: "orcamentos",
-    title: "Orçamentos",
   },
   {
     id: "sobre",

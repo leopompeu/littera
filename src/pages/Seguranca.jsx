@@ -21,9 +21,9 @@ const Seguranca = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
+                <OrcamentoSeguranca/>
                 <DiferencialSeguranca/>
                 <TimelineSeguranca/>
-                <OrcamentoSeguranca/>
                 <Footer/>
               </div>
             </div>
