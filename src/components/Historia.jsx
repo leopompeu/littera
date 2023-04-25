@@ -15,7 +15,7 @@ const Historia = () => {
         return (
             <section id="historia" className={`flex flex-col ${styles.paddingY}`}>
         
-          <h1 className='title-div3-web'>CONHEÇA NOSSA</h1>
+          <h1 className='title-conheca'>CONHEÇA NOSSA</h1>
           <h1 className='title-historia'>HISTÓRIA</h1>
           <div data-aos="fade-left">
             <img className='image1-historia' src="https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"></img>

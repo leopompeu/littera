@@ -11,7 +11,7 @@ import "aos/dist/aos.css"
 const DiferencialSites = () => {
 
     useEffect(() => {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 2000});
     })
 
     if(isMobile){
@@ -38,14 +38,12 @@ const DiferencialSites = () => {
                     <h1 className='title-diferencial-site-web'>POR QUE FAZER UM</h1>
                     <h1 className='title-diferencial-site-web2'>SITE?</h1>
                     <div className='diferencial-cards'>
-                        <div className='card-diferencial-site' data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom">
+                        <div className='card-diferencial-site' data-aos="fade-up">
                             <img src={imgDif1}/>
                             <h1 className='title-dif'>TIME ESPECIALIZADO</h1>
                             <p className='content-dif'>A Littera é composta por um time de profissionais experientes em diversos nichos dentro de TI, como foco na inovação de forma assertiva e segura, trabalhamos dia e noite com amor e dedicação a cada cliente individualmente para garantir os melhores resultados.</p>
                         </div>
-                        <div className='card-diferencial-site' data-aos="fade-up"
-                        data-aos-anchor-placement="top-bottom">
+                        <div className='card-diferencial-site' data-aos="fade-up">
                             <img src={imgDif2}/>
                             <h1 className='title-dif'>TIME ESPECIALIZADO</h1>
                             <p className='content-dif'>A Littera é composta por um time de profissionais experientes em diversos nichos dentro de TI, como foco na inovação de forma assertiva e segura, trabalhamos dia e noite com amor e dedicação a cada cliente individualmente para garantir os melhores resultados.</p>

@@ -75,6 +75,15 @@ import bgDivSite from "./bg-div-sites-web.png"
 import textDiv from "./text-div.png"
 import bgDivApp from "./div1AppsWeb.png"
 import bgDivSeguranca from "./bg-div-background-seguranca.png"
+import leoCarousel from "./leoCarousel.png"
+import tiaoCarousel from "./tiaoCarousel.png"
+import thomasCarousel from "./thomasCarousel.png"
+import serjoCarousel from "./serjoCarousel.png"
+import kauanCarousel from "./kauanCarousel.png"
+import budaCarousel from "./budaCarousel.png"
+import batataCarousel from "./batataCarousel.png"
+import annaCarousel from "./annaCarousel.png"
+
 
  
 
@@ -155,6 +164,14 @@ export {
   bgDivSite,
   textDiv,
   bgDivApp,
-  bgDivSeguranca
+  bgDivSeguranca,
+  leoCarousel,
+  tiaoCarousel,
+  thomasCarousel,
+  serjoCarousel,
+  kauanCarousel,
+  budaCarousel,
+  batataCarousel,
+  annaCarousel
     
 };

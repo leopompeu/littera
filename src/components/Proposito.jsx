@@ -22,7 +22,7 @@ const Proposito = () => {
         <div className='bg-div3-sites-web' >
           <h1 className='title-div3-web'>CONHEÇA NOSSOS</h1>
           <h1 className='title-proposito'>PROPÓSITOS</h1>
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <img className='image1-proposito' src="https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"></img>
             <div className='card-proposito-web'>
               <div className='textbox-proposito-web'>
