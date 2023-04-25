@@ -27,8 +27,8 @@ const Div1 = () => {
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
           <div className='bg-div-home-web' >
-            <h1 className='title-web'>CONECTE-SE AO</h1>
-            <h1 className='title-web2'>SEU FUTURO!</h1>
+            <h1 className='title-web'>CONECTE-SE AO SEU</h1>
+            <h1 className='title-web2'>FUTURO!</h1>
             <p className='subtitle-web'>A inovação e a solução que sua empresa busca</p>
             <p className='subtitle-web2'>Nós criamos para você!</p>
             <p className='redirect-text-web'>Vamos nos conhecer!</p>
