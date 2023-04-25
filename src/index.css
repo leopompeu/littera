@@ -2560,7 +2560,7 @@ input {
 
 textarea {
   background-color: transparent;
-  margin-left: 10px;
+  margin-left: 7px;
   resize: none;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -2739,4 +2739,12 @@ textarea {
 
 #historia {
   margin-bottom: -150px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
 }
