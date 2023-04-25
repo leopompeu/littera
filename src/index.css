@@ -1562,7 +1562,7 @@
 }
 
 .title-div3-web {
-  margin-top: 5%;
+  margin-top: 10%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
@@ -2579,4 +2579,164 @@ textarea {
   textarea {
     
   }
+}
+
+.title-sobre-nos2{
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #EBBE13;
+
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+   -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+
+}
+
+.image1-proposito{
+  margin-top: -10%;
+  margin-left: 0%;
+  margin-right: 5%;
+  height: 578.5px;
+  width: 360px;
+  border-radius: 20px;
+  object-fit: cover;
+  float: right;
+}
+
+.card-proposito-web{
+  height: 290px;
+  width: auto;
+  margin-top: 20%;
+  margin-left: 8%;
+  margin-right: 5%;
+  background: #EBBE13;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.textbox-proposito-web {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+}
+
+.text-proposito-web{
+  margin-top: 5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+  
+
+  color: #5E18CA;
+}
+
+.title-proposito{
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #EBBE13;
+
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+   -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+
+}
+
+.image1-historia{
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 5%;
+  height: 578.5px;
+  width: 360px;
+  border-radius: 20px;
+  object-fit: cover;
+  float: left;
+}
+
+.card-historia-web{
+  height: 290px;
+  width: auto;
+  margin-top: 20%;
+  margin-left: 8%;
+  margin-right: 5%;
+  background: #EBBE13;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.textbox-historia-web {
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+}
+
+.text-historia-web{
+  margin-top: 5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+  
+
+  color: #5E18CA;
+}
+
+.title-historia{
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #EBBE13;
+
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+   -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+
+}
+
+#historia {
+  margin-bottom: -150px;
 }
