@@ -18,7 +18,8 @@ const DiferencialSites = () => {
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='bg-div3-sites container' >
-                    <h1 className='title-diferencial-site'>POR QUE FAZER UM SITE?</h1>
+                    <h1 className='title-diferencial-site'>POR QUE FAZER UM</h1>
+                    <h1 className='title-diferencial-site2'>SITE?</h1>
                     <div className='text-div'>
                         <img className='image1-text' src={image1} data-aos="flip-right"/>
                         <p className='text-diferencial-site'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem at leo placerat auctor. Nullam suscipit augue sit amet ligula varius, sodales finibus orci mollis. Cras venenatis imperdiet consequat. Nulla eget vehicula eros. Vivamus dapibus faucibus nunc, vel finibus lacus condimentum ultricies. Nulla justo nibh, semper eu urna ac, finibus suscipit magna.</p>
@@ -34,7 +35,8 @@ const DiferencialSites = () => {
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='bg-div3-sites-web' >
-                    <h1 className='title-diferencial-site-web'>POR QUE FAZER UM SITE?</h1>
+                    <h1 className='title-diferencial-site-web'>POR QUE FAZER UM</h1>
+                    <h1 className='title-diferencial-site-web2'>SITE?</h1>
                     <div className='diferencial-cards'>
                         <div className='card-diferencial-site' data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom">

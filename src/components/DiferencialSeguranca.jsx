@@ -16,7 +16,8 @@ const DiferencialSeguranca = () => {
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='bg-div3-sites container' >
-                    <h1 className='title-diferencial-site'>POR QUE INVESTIR EM SEGURANÇA?</h1>
+                    <h1 className='title-diferencial-site'>POR QUE INVESTIR EM</h1>
+                    <h1 className='title-diferencial-site2'>SEGURANÇA?</h1>
                     <div className='text-div'>
                         <img className='image1-text' src={image1Seguranca} data-aos="flip-right"/>
                         <p className='text-diferencial-site'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem at leo placerat auctor. Nullam suscipit augue sit amet ligula varius, sodales finibus orci mollis. Cras venenatis imperdiet consequat. Nulla eget vehicula eros. Vivamus dapibus faucibus nunc, vel finibus lacus condimentum ultricies. Nulla justo nibh, semper eu urna ac, finibus suscipit magna.</p>
@@ -32,7 +33,8 @@ const DiferencialSeguranca = () => {
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='bg-div3-sites-web' >
-                    <h1 className='title-diferencial-site-web'>POR QUE INVESTIR EM SEGURANÇA?</h1>
+                    <h1 className='title-diferencial-site-web'>POR QUE INVESTIR EM</h1>
+                    <h1 className='title-diferencial-site-web2'>SEGURANÇA?</h1>
                     <div className='diferencial-cards'>
                         <div className='card-diferencial-site' data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom">
