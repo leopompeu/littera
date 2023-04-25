@@ -2812,6 +2812,8 @@ textarea {
 
 .div-item-infos{
   margin-left: 20px;
+}
+
 input:focus {
   outline: none;
 }

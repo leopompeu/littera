@@ -117,7 +117,9 @@ const Contato = () => {
               id='celular' 
               name='celular' 
               type='tel' 
-              required 
+              required
+              onChange={(e) => setTelefone(e.target.value)}
+              value={telefone}
             />
             </div>
             <br/>
@@ -145,6 +147,7 @@ const Contato = () => {
             setMensagem(e.target.value);
         }}
         placeholder='Digite sua mensagem...'
+        onChange={(e) => setMensagem(e.target.value)}
         value={mensagem}></textarea>
     </div>
             <input className='contact-button' type='submit' value="ENVIAR"/>
