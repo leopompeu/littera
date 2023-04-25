@@ -2561,7 +2561,7 @@ input {
 
 textarea {
   background-color: transparent;
-  margin-left: 10px;
+  margin-left: 7px;
   resize: none;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -2812,4 +2812,10 @@ textarea {
 
 .div-item-infos{
   margin-left: 20px;
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
 }

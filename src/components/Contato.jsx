@@ -7,21 +7,21 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useState } from 'react'
+import InputMask from 'react-input-mask';
 
 const Contato = () => {
   const [nome, setName] = useState('')
   const [telefone, setTelefone] = useState('')
   const [email, setEmail] = useState('')
   const [mensagem, setMensagem] = useState('')
-
+    
   const templateParams = {
     from_name: nome,
     message: mensagem,
     email: email,
     telefone: telefone
   }
-
-
+    
   useEffect(() => {
     Aos.init({duration: 2000});
   })
@@ -101,20 +101,24 @@ const Contato = () => {
             <label htmlFor='nome' className='contact-text'>Nome</label>
             <input type='text' 
             id='nome' 
-            name='nome'  
+            name='nome' 
+            pattern="[A-Za-zÀ-ú ]+" 
+            minLength="3"
+            maxLength="50"
             placeholder='Digite seu nome...' 
             onChange={(e) => setName(e.target.value)}
             value={nome}/>
             </div>
             <div className='contact-small-web contact-right'>
             <label htmlFor='celular' className='contact-text'>Celular</label>
-            <input type='tel' 
-            id='celular' 
-            name='celular' 
-            pattern='[0-9]{2}[0-9]{5}[0-9]{4}' 
-            placeholder='(13) 91234-5678' 
-            onChange={(e) => setTelefone(e.target.value)}
-            value={telefone}/>
+              <InputMask 
+              mask="(99) 99999-9999" 
+              placeholder="(DD) 9XXXX-XXXX"
+              id='celular' 
+              name='celular' 
+              type='tel' 
+              required 
+            />
             </div>
             <br/>
             <br/>
@@ -129,15 +133,20 @@ const Contato = () => {
             value={email}/>
             </div>
             <div className='contact-big'>
-            <label htmlFor='mensagem' className='contact-text'>Mensagem</label>
-            <textarea id='mensagem' 
-            name='mensagem' 
-            rows='9' 
-            cols='95' 
-            placeholder='Digite sua mensagem...'
-            onChange={(e) => setMensagem(e.target.value)}
-            value={mensagem}></textarea>
-            </div>
+      <label htmlFor='mensagem' className='contact-text'>Mensagem</label>
+            <textarea id='mensagem'
+            name='mensagem'
+            minLength='10'
+            maxLength='300'
+            rows='9'
+            cols='95'
+            onInput={(e) => {
+            e.target.value = e.target.value.replace(/[<>\[\]{}]/g, '');
+            setMensagem(e.target.value);
+        }}
+        placeholder='Digite sua mensagem...'
+        value={mensagem}></textarea>
+    </div>
             <input className='contact-button' type='submit' value="ENVIAR"/>
           </form>
         </div>          
