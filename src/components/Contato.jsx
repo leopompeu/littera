@@ -132,8 +132,8 @@ const Contato = () => {
             <label htmlFor='mensagem' className='contact-text'>Mensagem</label>
             <textarea id='mensagem' 
             name='mensagem' 
-            rows='7' 
-            cols='54' 
+            rows='9' 
+            cols='95' 
             placeholder='Digite sua mensagem...'
             onChange={(e) => setMensagem(e.target.value)}
             value={mensagem}></textarea>
