@@ -32,10 +32,10 @@ const Servicos = () => {
           <h1>.</h1>
           <h1 className='title-servicos-web'>O QUE PODEMOS SOLUCIONAR PARA</h1>
           <h1 className='title-servicos-web2'>VOCÊ?</h1>
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" className='carousel-servicos-web-div'>
             <CarrouselServicos/>
           </div>
-          <h1 className='blank3'>.</h1>
+          <h1 className='blank2'>.</h1>
         </div>
       </section>
     )
