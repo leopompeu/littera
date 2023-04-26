@@ -11,7 +11,7 @@ const Footer = () => {
 
     if(isMobile){
         return (
-            <div className={`flex md:flex-row flex-col ${styles.paddingY} footer-component ${location.pathname === "/" ? '' : 'footer-sites'}`}>
+            <div className={`flex md:flex-row flex-col ${styles.paddingY} footer-component ${location.pathname === "/" ? 'footer-home' : 'footer-sites'}`}>
                 <img src={lineBig} className='footer-line'/>
                 <div>
                     <div className='div1-footer'>
@@ -79,7 +79,7 @@ const Footer = () => {
           )
     } else {
         return(
-            <div className={`flex flex-col ${location.pathname === "/" ? '' : 'footer-sites'}`}>
+            <div className={`flex flex-col ${location.pathname === "/" ? 'footer-home' : 'footer-sites'}`}>
                 <img src={lineBig} className='footer-line-web'/>
                 <div className='footer-component-web'>
                     <div className='div-footer'>
@@ -132,7 +132,7 @@ const Footer = () => {
                             <a href='https://t.me/leopompeu'>
                                 <img src={telegram} />
                             </a>
-                            <a href='mailto:leopompeu1209@gmail.com?subject=Littera&body=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Littera!'>
+                            <a href='mailto:contato@litteratech.com.br?subject=Littera&body=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Littera!'>
                                 <img src={email} />
                             </a>
                         </div>

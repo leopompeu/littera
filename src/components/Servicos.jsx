@@ -21,18 +21,18 @@ const Servicos = () => {
       <section id="servicos" className={`${styles.paddingX}`}>
         <div className='content-center' data-aos="fade-up">
           <h1 className='title-servicos'>O QUE PODEMOS SOLUCIONAR PARA VOCÊ?</h1>
-          <CarrouselServicos ></CarrouselServicos>
+          <CarrouselServicos/>
         </div>
       </section>
     )
   } else {
     return (
       <section id="servicos" className={`container-contac`}>
-        <div className='content-center bg-port-sites'>
+        <div className='bg-port-sites'>
           <h1>.</h1>
           <h1 className='title-servicos-web'>O QUE PODEMOS SOLUCIONAR PARA</h1>
           <h1 className='title-servicos-web2'>VOCÊ?</h1>
-          <img src={card1web} className="sticky-div"></img>
+          <CarrouselServicos/>
           <h1 className='blank3'>.</h1>
         </div>
       </section>

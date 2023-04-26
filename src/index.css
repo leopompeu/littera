@@ -295,7 +295,7 @@
 
 .subtitle2 {
   justify-content: center;
-  margin-top: -10px;
+  margin-top: -20px;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -337,7 +337,68 @@
   justify-content: center;
 }
 
+.text-header{
+  margin-top: 15px;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  
+  letter-spacing: -0.408px;
+  
+  color: #FFFFFFE6;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+}
+
+.text-header-selected{
+  margin-top: 15px;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  
+  letter-spacing: -0.408px;
+  
+  color: yellow;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+}
+
+
+.text-header:hover{
+  color: #FFFFFF;
+
+}
+
+.list{
+  align-items: center;
+}
+
 .redirect-image {
+  margin-top: -15px;
   margin-left: auto;
   margin-right: auto;
   width: 30px;
@@ -431,7 +492,7 @@
 .bg-div3 {
   background-image: url("./assets/div3.png");
   height: 978px;
-  margin-top: -95px;
+  margin-top: 95px;
 }
 
 .title-div3 {
@@ -956,6 +1017,10 @@
   color: #5E18CA;
 }
 
+.contact-button:hover{
+  color: white
+}
+
 .contact-button-mobile{
   display: flex;
   align-items: center;
@@ -1230,6 +1295,7 @@
 }
 
 .subtitle-web2{
+  margin-top: -20px;
   justify-content: center;
 
   font-family: 'Poppins';
@@ -1391,6 +1457,40 @@
   color: #FFFFFF;
 }
 
+.title-proposito-mobile{
+  margin-top: 45%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 92% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.title-história-mobile{
+  margin-top: 15%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 92% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
 .title-diferencial-site2{
   font-family: 'Poppins';
   font-style: normal;
@@ -1439,8 +1539,24 @@
   justify-content: center;
 }
 
+.proposito-div{
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.historia-div{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
 .image1-text2{
   margin-right: 5%;
+}
+
+.image-historia{
+  margin-left: 5%;
 }
 
 .text-diferencial-site2{
@@ -1455,6 +1571,42 @@
   font-size: 12px;
   line-height: 17px;
   text-align: right;
+  /* or 142% */
+
+
+  color: #FFFFFF;
+}
+
+.text-proposito-mobile{
+  width: auto;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 2.5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: end;
+  /* or 142% */
+
+
+  color: #FFFFFF;
+}
+
+.text-historia-mobile{
+  width: auto;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
   /* or 142% */
 
 
@@ -1498,6 +1650,14 @@
 
 .footer-sites{
   margin-top: 25%;
+}
+
+.link-footer-web:hover{
+  color: white;
+}
+
+.footer-home{
+  margin-top: 6%;
 }
 
 .title-card-orcamentos{
@@ -2467,6 +2627,10 @@
   flex-grow: 0;
 }
 
+.button-card-orcamentos-web:hover{
+  color: white
+}
+
 body::-webkit-scrollbar {
   width: 5px;               /* width of the entire scrollbar */
 }
@@ -2562,7 +2726,7 @@ input {
 
 textarea {
   background-color: transparent;
-  margin-left: 10px;
+  margin-left: 7px;
   resize: none;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -2605,10 +2769,32 @@ textarea {
 
 }
 
+.title-sobre-nos2-mobile{
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #EBBE13;
+
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+   -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+
+}
+
 .image1-proposito{
   margin-top: -10%;
   margin-left: 0%;
-  margin-right: 5%;
+  margin-right: 10%;
   height: 578.5px;
   width: 360px;
   border-radius: 20px;
@@ -2619,9 +2805,9 @@ textarea {
 .card-proposito-web{
   height: 290px;
   width: auto;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 8%;
-  margin-right: 5%;
+  margin-right: 10%;
   background: #EBBE13;
   border-radius: 20px;
   z-index: -1;
@@ -2673,9 +2859,9 @@ textarea {
 }
 
 .image1-historia{
-  margin-top: 10%;
-  margin-left: 0%;
-  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 0%;
   height: 578.5px;
   width: 360px;
   border-radius: 20px;
@@ -2686,8 +2872,8 @@ textarea {
 .card-historia-web{
   height: 290px;
   width: auto;
-  margin-top: 20%;
-  margin-left: 8%;
+  margin-top: 15%;
+  margin-left: 20%;
   margin-right: 5%;
   background: #EBBE13;
   border-radius: 20px;
@@ -2695,23 +2881,23 @@ textarea {
 }
 
 .textbox-historia-web {
-  width: 60%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 3%;
+  width: 75%;
+  margin-left: 18%;
+  margin-right: 10%;
+  padding-top: 1%;
 }
 
 .text-historia-web{
   margin-top: 5%;
-
+  margin-left: 10%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
   display: flex;
-  align-items: flex-end;
-  text-align: end;
+  align-items: flex-start;
+  text-align: start;
   
 
   color: #5E18CA;
@@ -2741,4 +2927,155 @@ textarea {
 
 #historia {
   margin-bottom: -150px;
+}
+
+.title-conheca {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 31px;
+  /* identical to box height, or 97% */
+  
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.div-carousel-item{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 930px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background: linear-gradient(180deg, #5E18CA 0%, rgba(94, 24, 202, 0) 100%);
+  border-radius: 16px;
+}
+
+.div-carousel-item-mobile{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 162px;
+  align-items: center;
+  justify-content: center;
+
+
+
+  background: linear-gradient(180deg, #5E18CA 0%, rgba(94, 24, 202, 0) 100%);
+  border-radius: 16px;
+}
+
+
+.img-carousel{
+  height: 150px;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.img-carousel-mobile{
+  height: 82px;
+  width: 82px;
+  margin-right: 10px;
+}
+
+.txt-carousel{
+  height: 24px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+
+.txt-carousel-mobile{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+
+.txt-carousel1{
+  
+  width: auto;
+  height: 24px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+
+.txt-carousel1-mobile{
+  
+  width: auto;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #EBBE13;
+}
+
+.div-infos{
+  display: flex;
+}
+
+.div-item-infos{
+  margin-left: 20px;
+}
+
+.div-item-infos-mobile{
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.img-carousel-web{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-web{
+  margin-bottom: -5%;
+}
+
+.div-carousel-servicos-item{
+
+  margin-left: auto;
+  margin-right: auto;
+
 }

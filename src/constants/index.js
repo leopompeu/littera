@@ -14,19 +14,19 @@ export const header = [
 export const navLinks = [
   {
     id: "sites",
-    title: "Sites",
+    title: "SITES",
   },
   {
     id: "seguranca",
-    title: "Segurança digital",
+    title: "SEGURANÇA DIGITAL",
   },
   {
     id: "aplicativos",
-    title: "Aplicativos",
+    title: "APLICATIVOS",
   },
   {
     id: "sobre",
-    title: "Sobre nós",
+    title: "SOBRE NÓS",
   },
   {
     id: "x",
@@ -391,7 +391,7 @@ export const contact = [
               {
                 id: "contact-3",
                 icon: email,
-                link: "mailto:leopompeu1209@gmail.com?subject=Littera&body=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Littera!",
+                link: "mailto:contato@litteratech.com.br?subject=Littera&body=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Littera!",
               }
         ]
     } 
