@@ -16,22 +16,40 @@ import Footer from "./components/Footer";
 import TagManager from "react-gtm-module";
 import { Helmet } from "react-helmet";
 import ReactGA from "react-ga4";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const App = () => {
 
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+      setLoading(true);
+      setTimeout(() => {
+          setLoading(false);
+      }, 2000);
+  }, []);
+
   return (
-    <div>
-      <MyNavBar/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/aplicativos" element={<Aplicativos />} />
-        <Route path="/orcamentos" element={<Orçamentos />} />
-        <Route path="/seguranca" element={<Seguranca />} />
-        <Route path="/sites" element={<Sites />} />
-        <Route path="/sobre" element={<SobreNos />} />
-        <Route path="*" element={<NoPage />} />
-      </Routes>
+      <div>{loading ? (
+        <div className="loading-container">
+          <div className="spinner"></div>
+        </div>
+         ) : (
+          <div>
+            <MyNavBar/>
+            <Routes>
+              <Route path="/" element={<Home />}/>
+              <Route path="/aplicativos" element={<Aplicativos />} />
+              <Route path="/orcamentos" element={<Orçamentos />} />
+              <Route path="/seguranca" element={<Seguranca />} />
+              <Route path="/sites" element={<Sites />} />
+              <Route path="/sobre" element={<SobreNos />} />
+              <Route path="*" element={<NoPage />} />
+            </Routes>
+          </div>)}
     </div>
+    
   )
 }
 
