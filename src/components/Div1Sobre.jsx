@@ -7,7 +7,12 @@ import styles from '../style'
 const Div1Sobre = () => {
     if(isMobile) {
         return (
-            <div>Div1Sobre</div>
+          <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+            <div className='bg-div-home container' >
+              <h1 className='title'>CONHEÇA NOSSA</h1>
+              <h1 className='title-sobre-nos2-mobile'>EQUIPE!</h1>
+            </div>
+          </section>
             
           )
     } else {
@@ -17,7 +22,6 @@ const Div1Sobre = () => {
           <div className='bg-div-home-web' >
             <h1 className='title-web'>CONHEÇA NOSSA</h1>
             <h1 className='title-sobre-nos2'>EQUIPE!</h1>
-            
           </div>
         </section>
           )

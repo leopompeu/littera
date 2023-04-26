@@ -13,6 +13,7 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-
 const MyNavBar = () => {
   const [isOpen, setOpen] = useState(false)
   const location = useLocation();
+  
 
   if(isMobile) {
     return (
@@ -51,15 +52,15 @@ const MyNavBar = () => {
         <div className={`${styles.paddingX} w-full bg-header`}>
           <nav className="w-full flex py-6 justify-between items-center navbar">
             <a href='/'>
-            <img src={littera} alt="littera" className="w-[124px] [h-32px]"/>
+              <img src={littera} alt="littera" className="w-[124px] [h-32px]"/>
             </a>
-            <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+            <ul className="list-none list sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white `}
-                >
-                  <a href={`/${nav.id}`} className="text-white">{nav.title}</a>
+                  className={`font-poppins text-header font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white `}
+                > 
+                  <a href={`/${nav.id}`} className={`text-header ${location.pathname === "/" + nav.id ? 'text-header-selected' : ''}`}>{nav.title}</a>
 
                 </li>
               ))}

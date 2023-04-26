@@ -5,6 +5,7 @@ import styles from '../style'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { imageProposito } from '../assets'
 
 const Proposito = () => {
 
@@ -14,7 +15,16 @@ const Proposito = () => {
       
     if(isMobile) {
         return (
-            <div>Div1Sobre</div>
+          <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+              <div className='bg-div3-sites container' >
+                  <h1 className='title-proposito-mobile'>CONHEÇA O NOSSO</h1>
+                  <h1 className='title-diferencial-site2'>PROPÓSITO!</h1>
+                  <div className='proposito-div'>
+                      <p className='text-proposito-mobile'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sem at leo placerat auctor. Nullam suscipit augue sit amet ligula varius, sodales finibus orci mollis. Cras venenatis imperdiet consequat. Nulla eget vehicula eros. Vivamus dapibus faucibus nunc, vel finibus lacus condimentum ultricies. Nulla justo nibh, semper eu urna ac, finibus suscipit magna.</p>
+                      <img className='image1-text2' src={imageProposito} data-aos="flip-left"/>
+                  </div>
+              </div>
+          </section>
           )
     } else {
         return (
