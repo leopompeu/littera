@@ -1747,7 +1747,7 @@
 }
 
 .image1-web{
-  margin-top: 5%;
+  margin-top: 2.5%;
   margin-left: 5%;
   height: 300px;
   width: 430px;
@@ -1756,7 +1756,7 @@
 }
 
 .card-diferencial-web{
-  height: 250px;
+  height: 240px;
   width: auto;
   margin-top: -20.5%;
   margin-left: 8%;
@@ -1804,14 +1804,14 @@
   margin-top: 5%;
   display: block;
   margin-left: 62.5%;
-  height: 300px;
+  height: 290px;
   width: 430px;
   border-radius: 20px;
   object-fit: cover;
 }
 
 .card-diferencial-web2{
-  height: 250px;
+  height: 240px;
   width: auto;
   margin-top: -20.5%;
   margin-left: 5%;
@@ -2817,7 +2817,7 @@ textarea {
   margin-top: -10%;
   margin-left: 0%;
   margin-right: 10%;
-  height: 578.5px;
+  height: 530px;
   width: 360px;
   border-radius: 20px;
   object-fit: cover;
@@ -2825,7 +2825,7 @@ textarea {
 }
 
 .card-proposito-web{
-  height: 290px;
+  height: 240px;
   width: auto;
   margin-top: 15%;
   margin-left: 8%;
@@ -2839,7 +2839,7 @@ textarea {
   width: 60%;
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 3%;
+  padding-top: 2.5%;
 }
 
 .text-proposito-web{
@@ -2881,10 +2881,10 @@ textarea {
 }
 
 .image1-historia{
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 10%;
   margin-right: 0%;
-  height: 578.5px;
+  height: 530px;
   width: 360px;
   border-radius: 20px;
   object-fit: cover;
@@ -2892,7 +2892,7 @@ textarea {
 }
 
 .card-historia-web{
-  height: 290px;
+  height: 240px;
   width: auto;
   margin-top: 15%;
   margin-left: 20%;
@@ -2906,7 +2906,7 @@ textarea {
   width: 75%;
   margin-left: 18%;
   margin-right: 10%;
-  padding-top: 1%;
+  padding-top: 2.5%;
 }
 
 .text-historia-web{
