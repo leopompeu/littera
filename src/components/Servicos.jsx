@@ -32,7 +32,9 @@ const Servicos = () => {
           <h1>.</h1>
           <h1 className='title-servicos-web'>O QUE PODEMOS SOLUCIONAR PARA</h1>
           <h1 className='title-servicos-web2'>VOCÊ?</h1>
-          <CarrouselServicos/>
+          <div data-aos="zoom-in">
+            <CarrouselServicos/>
+          </div>
           <h1 className='blank3'>.</h1>
         </div>
       </section>

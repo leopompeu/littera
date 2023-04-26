@@ -85,6 +85,9 @@ import batataCarousel from "./batataCarousel.png"
 import annaCarousel from "./annaCarousel.png"
 import imageProposito from "./imageProposito.png"
 import imageHistoria from "./imageHistoria.png"
+import imageHistoriaWeb from "./imageHistoriaWeb.png"
+import imagePropositoWeb from "./imagePropositoWeb.png"
+
 
 export {
   anna,
@@ -173,6 +176,8 @@ export {
   batataCarousel,
   annaCarousel,
   imageProposito,
-  imageHistoria
+  imageHistoria,
+  imageHistoriaWeb,
+  imagePropositoWeb
     
 };
