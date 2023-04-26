@@ -984,7 +984,7 @@
   height: 200px;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #EBBE13;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(5px);
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 5px;
@@ -2105,7 +2105,7 @@
   height: 50px;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #EBBE13;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 5px;
   
@@ -2119,7 +2119,7 @@
   height: 50px;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #EBBE13;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 5px;
