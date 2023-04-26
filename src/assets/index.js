@@ -83,9 +83,12 @@ import kauanCarousel from "./kauanCarousel.png"
 import budaCarousel from "./budaCarousel.png"
 import batataCarousel from "./batataCarousel.png"
 import annaCarousel from "./annaCarousel.png"
+import imageProposito from "./imageProposito.png"
+import imageHistoria from "./imageHistoria.png"
+import imageHistoriaWeb from "./imageHistoriaWeb.png"
+import imagePropositoWeb from "./imagePropositoWeb.png"
+import bgModal from "./bg-modal.png"
 
-
- 
 
 export {
   anna,
@@ -172,6 +175,11 @@ export {
   kauanCarousel,
   budaCarousel,
   batataCarousel,
-  annaCarousel
+  annaCarousel,
+  imageProposito,
+  imageHistoria,
+  imageHistoriaWeb,
+  imagePropositoWeb,
+  bgModal
     
 };

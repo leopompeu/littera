@@ -6,7 +6,6 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
-
 const Div1Sites = () => {
 
     useEffect(() => {
@@ -38,7 +37,7 @@ const Div1Sites = () => {
                     <div className='div-celulares' data-aos="zoom-in">
                         <img className='background-celular' src={backgroundCelulares}/>
                         <img className='image-celular-sites' src={celularesSites}/>
-                        <h1 className='blank2'>.</h1>
+                        <h1 className='blank5'>.</h1>
                     </div>
                     
                 </div>

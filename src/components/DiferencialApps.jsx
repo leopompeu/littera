@@ -12,7 +12,7 @@ const DiferencialApps = () => {
 
     useEffect(() => {
         Aos.init({duration: 2000});
-    })
+      })
 
     if(isMobile){
         return (

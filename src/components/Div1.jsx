@@ -17,7 +17,7 @@ const Div1 = () => {
             <p className='subtitle2'>Nós criamos para você!</p>
             <p className='redirect'>Vamos nos conhecer!</p>
             <Link to="#servicos" smooth className='cursor-default'>
-              <img src={arrowCircleDown} className='redirect-image' cursor-pointer/>
+              <img src={arrowCircleDown} className='redirect-image'/>
             </Link>
           </div>
         </section>

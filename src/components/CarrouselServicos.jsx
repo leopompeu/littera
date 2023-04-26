@@ -1,7 +1,9 @@
 import React from 'react'
 import Carousel from 'nuka-carousel/lib/carousel'
 import { isMobile } from 'react-device-detect'
-import { card1, card2, card3 } from '../assets'
+import { card1, card1web, card2, card3 } from '../assets'
+import { Carousel as CarouselWeb } from 'react-bootstrap'
+import styles from '../style'
 
 
 function CardServicos() {
@@ -47,9 +49,26 @@ function CardServicos() {
                     </div>
                 </Carousel>
             </div>
-          )
-        }
+        )
+    } else {
+        return(
+            <section id="carousel-servicos" className={`flex flex-col`}>
+                <CarouselWeb className='carousel-web'>
+                    <CarouselWeb.Item> 
+                        <img src={card1web} className='div-carousel-servicos-item'/>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                        <img src={card1web} className='div-carousel-servicos-item'/>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                        <img src={card1web} className='div-carousel-servicos-item'/>
+                    </CarouselWeb.Item>
+                </CarouselWeb>
+            </section>
+        )
+        
     }
+}
   
 
 export default CardServicos
