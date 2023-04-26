@@ -20,6 +20,7 @@ const Contato = () => {
     message: mensagem,
     email: email,
     telefone: telefone
+    
   }
     
   useEffect(() => {
@@ -32,7 +33,7 @@ const Contato = () => {
       alert("ce é burro é?");
       return;
     }
-
+        
     emailjs.send('service_xa3hzsh','template_p0laihm', templateParams, 'CbcuTc82YooDybrEE')
     .then((response) => {
       console.log("EMAIL ENVIADO ", response.status, response.text)
@@ -96,7 +97,7 @@ const Contato = () => {
               rows='9' 
               cols='60'
               onInput={(e) => {
-                e.target.value = e.target.value.replace(/[<>\[\]{}]/g, '');
+                e.target.value = e.target.value.replace(/[\u0410-\u044F<>{}\[\]]/g, '');
                 setMensagem(e.target.value);
               }}
               placeholder='Digite sua mensagem...'
@@ -165,7 +166,7 @@ const Contato = () => {
                     rows='9'
                     cols='95'
                     onInput={(e) => {
-                      e.target.value = e.target.value.replace(/[<>\[\]{}]/g, '');
+                      e.target.value = e.target.value.replace(/[\u0410-\u044F<>{}\[\]]/g, '');
                       setMensagem(e.target.value);
                     }}
                     placeholder='Digite sua mensagem...'

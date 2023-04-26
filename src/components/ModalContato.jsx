@@ -65,6 +65,10 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             className="contact-modal-input"
                                             minLength="3"
                                             maxLength="50"
+                                            onInput={(e) => {
+                                                e.target.value = e.target.value.replace(/[\u0410-\u044F<>{}\[\]]/g, '');
+                                                setName(e.target.value);
+                                              }}
                                             placeholder='Ex: Serjo' 
                                             onChange={(e) => setName(e.target.value)}
                                             value={nome}/>
@@ -81,6 +85,10 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             className="contact-modal-input"
                                             minLength="3"
                                             maxLength="50"
+                                            onInput={(e) => {
+                                                e.target.value = e.target.value.replace(/[\u0410-\u044F<>{}\[\]]/g, '');
+                                                setEmpresa(e.target.value);
+                                              }}
                                             placeholder='Ex: Littera' 
                                             onChange={(e) => setEmpresa(e.target.value)}
                                             value={empresa}/>
@@ -98,6 +106,10 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             className="contact-modal-input"
                                             minLength="3"
                                             maxLength="50"
+                                            onInput={(e) => {
+                                                e.target.value = e.target.value.replace(/[\u0410-\u044F<>{}\[\]]/g, '');
+                                                setEmail(e.target.value);
+                                              }}
                                             placeholder='name@email.com' 
                                             onChange={(e) => setEmail(e.target.value)}
                                             value={email}/>
