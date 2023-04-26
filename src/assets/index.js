@@ -87,6 +87,7 @@ import imageProposito from "./imageProposito.png"
 import imageHistoria from "./imageHistoria.png"
 import imageHistoriaWeb from "./imageHistoriaWeb.png"
 import imagePropositoWeb from "./imagePropositoWeb.png"
+import bgModal from "./bg-modal.png"
 
 
 export {
@@ -178,6 +179,7 @@ export {
   imageProposito,
   imageHistoria,
   imageHistoriaWeb,
-  imagePropositoWeb
+  imagePropositoWeb,
+  bgModal
     
 };

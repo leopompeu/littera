@@ -42,7 +42,7 @@ const Div1Apps = () => {
                     <div className='div-celulares' data-aos="zoom-in">
                         <img className='background-celular' src={backgroundApps}/>
                         <img className='image-celular-sites' src={celulares3}/>
-                        <h1 className='blank2'>.</h1>
+                        <h1 className='blank5'>.</h1>
                     </div>
                     
                 </div>

@@ -4,7 +4,6 @@ import { backgroundDesktop, bgDivSeguranca, desktop } from '../assets'
 import styles from '../style'
 import { useEffect } from 'react'
 import Aos from 'aos'
-import "aos/dist/aos.css"
 
 
 const Div1Seguranca = () => {
@@ -40,7 +39,7 @@ const Div1Seguranca = () => {
                     <div className='div-celulares' data-aos="zoom-in">
                         <img className='background-celular' src={backgroundDesktop}/>
                         <img className='image-celular-sites' src={desktop}/>
-                        <h1 className='blank2'>.</h1>
+                        <h1 className='blank5'>.</h1>
                     </div>
                     
                 </div>

@@ -390,7 +390,8 @@
 
 .text-header:hover{
   color: #FFFFFF;
-
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 .list{
@@ -1018,7 +1019,9 @@
 }
 
 .contact-button:hover{
-  color: white
+  color: white;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 .contact-button-mobile{
@@ -1391,7 +1394,7 @@
 
 .conteudo-sites{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 0%;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -1662,6 +1665,8 @@
 
 .link-footer-web:hover{
   color: white;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 .footer-home{
@@ -1728,6 +1733,13 @@
   background-image: url(./assets/bg-dif-home.png);
   height: 845px;
   margin-top: -25%;
+  padding-bottom: 10%;
+}
+
+.bg-sites-web{
+  background-image: url(./assets/bg-dif-home.png);
+  height: 845px;
+  margin-top: -15%;
   padding-bottom: 10%;
 }
 
@@ -2402,8 +2414,9 @@
   color: #5E18CA;
 }
 
+
 .blank{
-  margin-top: 9.85%;
+  margin-top: 10.85%;
 }
 
 .bg-port-sites{
@@ -2415,6 +2428,10 @@
 
 .blank2{
   margin-top: 30%;
+}
+
+.blank5{
+  margin-top: 50%;
 }
 
 .blank3{
@@ -2650,7 +2667,9 @@
 }
 
 .button-card-orcamentos-web:hover{
-  color: white
+  color: white;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 body::-webkit-scrollbar {
@@ -3140,4 +3159,172 @@ textarea:focus {
 
 .carousel-servicos-web-div{
   margin-bottom: 10%;
+}
+
+.div-modal{
+  width: 100vw;
+  height: 480px;
+  background-image: url('./assets/bg-modal.png');
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.title-modal{
+  justify-content: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  /* identical to box height, or 44px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+
+  color: #EBBE13;
+}
+
+.body-modal{
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-modal{
+  margin-left: 12px;
+  width: 450px;
+  height: 45px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #EBBE13;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px;
+}
+
+.contact-modal-input::placeholder{
+  color: #FFFFFFCC;
+}
+
+.contact-text-modal{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  /* identical to box height, or 23px */
+
+  margin-left: 12px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+
+  color: #EBBE13;
+}
+
+.form-modal{
+  margin-top: 2%;
+}
+
+.div-item-form-modal{
+  display: flex;
+  justify-content: center;
+}
+
+.div-item-form-modal2{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.contact-left-modal{
+  margin-right: 60px;
+}
+
+.contact-button-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 200px;
+  height: 40px;
+  background: #EBBE13;
+  backdrop-filter: blur(1px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px;
+
+
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  
+  
+  color: #5E18CA;
+}
+
+.contact-back-button-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 200px;
+  height: 40px;
+  /* Note: backdrop-filter has minimal browser support */
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  
+  
+  color: #EBBE13;
+}
+
+.contact-button-modal:hover{
+  color: white;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+
+.contact-back-button-modal:hover{
+  color: white;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+
+.buttons-modal{
+  margin-top: 3%;
+  display: inline-block;
+  margin-left: 41%;
+  margin-right: 50%;
+}
+
+.backdrop{
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  z-index: 8;
+  backdrop-filter: blur(5px);
+
 }

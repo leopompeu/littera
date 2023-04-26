@@ -6,9 +6,13 @@ import styles from '../style'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import ModalContato from './ModalContato'
+import { useState } from 'react'
 
 
 const OrcamentoApps = () => {
+    const[modalOpen, setModalOpen] = useState(false);
+
     useEffect(() => {
         Aos.init({duration: 500});
     })
@@ -25,7 +29,7 @@ const OrcamentoApps = () => {
                             <a href='/orcamentos'>
                                 <button className='button-card-orcamentos'>ORÇAMENTO</button>
                             </a>
-                                <button className='button-card-orcamentos '>CONTATO</button>
+                                <button className='button-card-orcamentos'>CONTATO</button>
                         </div>
                     </div>
                 </div>
@@ -43,10 +47,12 @@ const OrcamentoApps = () => {
                             <a href='/orcamentos'>
                                 <button className='button-card-orcamentos-web'>ORÇAMENTO</button>
                             </a>
-                                <button className='button-card-orcamentos-web '>CONTATO</button>
+                                <button className='button-card-orcamentos-web'  onClick={()=>{setModalOpen(true)}}>CONTATO</button>
                         </div>
-                    </div>
+                        
+                    </div>  
                 </div>
+                <ModalContato isOpen={modalOpen} setIsOpen={setModalOpen}/>
             </section>
         )
     }
