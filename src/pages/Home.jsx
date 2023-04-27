@@ -7,6 +7,7 @@ import { Divide as Hamburger } from "hamburger-react";
 import { MyNavBar, Div1, Servicos, Diferencial, Portfolio, Animacao, Contato, ContatoHome, CarrouselTeam } from "../components";
 
 import React from 'react'
+import Animacao2 from "../components/Animacao2";
 
 const Home = () => {
 
@@ -23,9 +24,10 @@ const Home = () => {
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
                 <Servicos />
+                <Animacao  />
                 <Diferencial />
                 <Portfolio />
-                <Animacao />
+                <Animacao2 />
                 <CarrouselTeam />
                 <ContatoHome />
               </div>

@@ -738,7 +738,7 @@
   transform: rotate(3.59deg);
   vertical-align: middle;
 
-  z-index: 2;
+  z-index: 1;
 }
 
 .animation {
@@ -780,7 +780,7 @@
 }
 
 .section-animation {
-  margin-top: 35px;
+  margin-top: -10%;
 }
 
 .title-team {
@@ -1732,7 +1732,7 @@
 .bg-div3-web{
   background-image: url(./assets/bg-dif-home.png);
   height: 845px;
-  margin-top: -25%;
+  margin-top: -5%;
   padding-bottom: 10%;
 }
 
@@ -1765,6 +1765,7 @@
   width: 430px;
   border-radius: 20px;
   object-fit: cover;
+  z-index: 2;
 }
 
 .card-diferencial-web{
@@ -1773,7 +1774,7 @@
   margin-top: -20.5%;
   margin-left: 8%;
   margin-right: 5%;
-  background: #EBBE13;
+  background: #000000B3;
   border-radius: 20px;
   z-index: -1;
 }
@@ -1787,14 +1788,14 @@
 .title-diferencial-web{
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 32px;
   line-height: 31px;
   /* identical to box height, or 97% */
 
   text-align: start;
 
-  color: #5E18CA;
+  color: white;
 }
 
 .text-diferencial-web{
@@ -1809,7 +1810,7 @@
   align-items: flex-start;
   text-align: start;
 
-  color: #5E18CA;
+  color: white;
 }
 
 .image2-web{
@@ -1828,7 +1829,7 @@
   margin-top: -20.5%;
   margin-left: 5%;
   margin-right: 5%;
-  background: #EBBE13;
+  background: #000000B3;
   border-radius: 20px;
   z-index: -1;
 }
@@ -1842,14 +1843,14 @@
 .title-diferencial-web2{
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 32px;
   line-height: 31px;
   /* identical to box height, or 97% */
 
   text-align: end;
 
-  color: #5E18CA;
+  color: white;
 }
 
 .text-diferencial-web2{
@@ -1863,7 +1864,7 @@
   align-items: flex-end;
   text-align: end;
 
-  color: #5E18CA;
+  color: white;
 }
 
 .sticky-div{
@@ -2428,6 +2429,7 @@
 
 .blank2{
   margin-top: 30%;
+  margin-bottom: -25%;
 }
 
 .blank5{
@@ -2638,9 +2640,6 @@
 
   width: 250px;
   height: 50px;
-
-  margin-left: 5%;
-
   background: #EBBE13;
   border-radius: 10px;
 
@@ -3327,4 +3326,8 @@ textarea:focus {
   z-index: 8;
   backdrop-filter: blur(5px);
 
+}
+
+.animacao-first{
+  margin-top: -10%;
 }

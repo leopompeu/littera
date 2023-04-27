@@ -26,10 +26,7 @@ const Orcamento = () => {
                         <h1 className='title-card-orcamentos'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos'>
-                            <a href='/orcamentos'>
-                                <button className='button-card-orcamentos'>ORÇAMENTO</button>
-                            </a>
-                                <button className='button-card-orcamentos '>CONTATO</button>
+                            <button className='button-card-orcamentos' onClick={()=>{setModalOpen(true)}}>ORÇAMENTO</button>
                         </div>
                     </div>
                 </div>
@@ -39,15 +36,11 @@ const Orcamento = () => {
         return (
             <section id="orcamento" className={`md:flex-row flex-col `}>
                 <div className='div-orcamento-web'>
-                    <img src={precos} className='precos-web'/>
                     <div className='card-orcamentos-web' data-aos="flip-right">
                         <h1 className='title-card-orcamentos-web'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos-web'>
-                            <a href='/orcamentos'>
-                                <button className='button-card-orcamentos-web'>ORÇAMENTO</button>
-                            </a>
-                                <button className='button-card-orcamentos-web' onClick={()=>{setModalOpen(true)}}>CONTATO</button>
+                                <button className='button-card-orcamentos-web' onClick={()=>{setModalOpen(true)}}>ORÇAMENTO</button>
                         </div>
                     </div>
                 </div>

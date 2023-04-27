@@ -22,15 +22,11 @@ const OrcamentoSeguranca = () => {
         return (
             <section id="orcamento" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='div-orcamento'>
-                    <img src={precosSeguranca} className='precos' />
                     <div className='card-orcamentos' data-aos="flip-up">
                         <h1 className='title-card-orcamentos'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos'>
-                            <a href='/orcamentos'>
-                                <button className='button-card-orcamentos'>ORÇAMENTO</button>
-                            </a>
-                                <button className='button-card-orcamentos'>CONTATO</button>
+                            <button className='button-card-orcamentos'>ORÇAMENTO</button>
                         </div>
                     </div>
                 </div>
@@ -40,15 +36,11 @@ const OrcamentoSeguranca = () => {
         return (
             <section id="orcamento" className={`md:flex-row flex-col `}>
                 <div className='div-orcamento-web'>
-                    <img src={precosSeguranca} className='precos-web'/>
                     <div className='card-orcamentos-web' data-aos="flip-up">
                         <h1 className='title-card-orcamentos-web'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos-web'>
-                            <a href='/orcamentos'>
-                                <button className='button-card-orcamentos-web'>ORÇAMENTO</button>
-                            </a>
-                                <button className='button-card-orcamentos-web' onClick={()=>{setModalOpen(true)}}>CONTATO</button>
+                            <button className='button-card-orcamentos-web' onClick={()=>{setModalOpen(true)}}>ORÇAMENTO</button>
                         </div>
                     </div>
                 </div>
