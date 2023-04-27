@@ -5,7 +5,6 @@ import DiferencialApps from '../components/DiferencialApps'
 import Div1Apps from '../components/Div1Apps'
 import Footer from '../components/Footer'
 import OrcamentoApps from '../components/OrcamentoApps'
-import TimelineApps from '../components/TimelineApps'
 import styles from '../style'
 
 const Aplicativos = () => {
@@ -23,7 +22,6 @@ const Aplicativos = () => {
               <div className={`${styles.boxWidth}`}>
                 <OrcamentoApps/>
                 <DiferencialApps/>
-                <TimelineApps/>
                 <Footer/>
               </div>
             </div>

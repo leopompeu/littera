@@ -5,7 +5,6 @@ import DiferencialSeguranca from '../components/DiferencialSeguranca'
 import Div1Seguranca from '../components/Div1Seguranca'
 import Footer from '../components/Footer'
 import OrcamentoSeguranca from '../components/OrcamentoSeguranca'
-import TimelineSeguranca from '../components/TimelineSeguranca'
 import styles from '../style'
 
 const Seguranca = () => {
@@ -23,7 +22,6 @@ const Seguranca = () => {
               <div className={`${styles.boxWidth}`}>
                 <OrcamentoSeguranca/>
                 <DiferencialSeguranca/>
-                <TimelineSeguranca/>
                 <Footer/>
               </div>
             </div>

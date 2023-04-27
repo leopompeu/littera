@@ -6,14 +6,21 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Carousel as CarouselWeb } from 'react-bootstrap'
 import Carousel from 'nuka-carousel/lib/carousel'
 import { annaCarousel, batataCarousel, budaCarousel, kauan, kauanCarousel, leoCarousel, serjoCarousel, thomasCarousel, tiaoCarousel } from '../assets'
+import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 
 const CarroselTeamSobre = () => {
 
+    useEffect(() => {
+        Aos.init({duration: 2000});
+      })
+
     if(isMobile) {
         return (
             <Carousel slidesToShow={1} autoplay={true} autoplayInterval={5000} renderBottomCenterControls={false} renderCenterLeftControls={false} renderCenterRightControls={false} wrapAround = {true}>
-                <div>
+                <div data-aos="fade-up">
                     <div className='div-carousel-item-mobile'>
                         <img className='img-carousel-mobile' src={leoCarousel}/>
                         <div>
@@ -194,9 +201,9 @@ const CarroselTeamSobre = () => {
     } else {
         return (
             <section id="carousel-sobre" className={`flex flex-col ${styles.paddingY}`}>
-                <div className='bg-carousel-web'>
+                <div className='bg-carousel-web' >
                     <h1 className='blank3'>.</h1>
-                    <CarouselWeb>
+                    <CarouselWeb data-aos="fade-up">
                         <CarouselWeb.Item> 
                             <div className='div-carousel-item'>
                                 <img className='img-carousel' src={leoCarousel}/>

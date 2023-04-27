@@ -22,7 +22,7 @@ const Orcamento = () => {
             <section id="orcamento" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className='div-orcamento'>
                     <img src={precos} className='precos' />
-                    <div className='card-orcamentos' data-aos="flip-up">
+                    <div className='card-orcamentos' data-aos="fade-up">
                         <h1 className='title-card-orcamentos'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos'>
@@ -36,7 +36,7 @@ const Orcamento = () => {
         return (
             <section id="orcamento" className={`md:flex-row flex-col `}>
                 <div className='div-orcamento-web'>
-                    <div className='card-orcamentos-web' data-aos="flip-right">
+                    <div className='card-orcamentos-web' data-aos="fade-up">
                         <h1 className='title-card-orcamentos-web'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
                         <div className='buttons-card-orcamentos-web'>

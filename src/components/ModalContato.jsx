@@ -109,7 +109,7 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             <div className='contact-modal'>
                                                 <InputMask 
                                                 mask="(99) 99999-9999" 
-                                                placeholder="(DD) 9XXXX-XXXX"
+                                                placeholder="(DDD) 9XXXX-XXXX"
                                                 id='celular' 
                                                 name='celular' 
                                                 autoComplete="off"

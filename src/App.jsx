@@ -2,7 +2,6 @@ import { Link, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Aplicativos from "./pages/Aplicativos"
-import Orçamentos from "./pages/Orcamentos"
 import Seguranca from "./pages/Seguranca"
 import Sites from "./pages/Sites"
 import SobreNos from "./pages/SobreNos"

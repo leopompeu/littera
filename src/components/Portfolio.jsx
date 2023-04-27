@@ -18,7 +18,7 @@ const Portfolio = () => {
       <section id="diferencial" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 
         <h1 className='text-portfolio'>VEJA ALGUNS DE NOSSOS TRABALHOS</h1>
-        <div className='bg-div-fv'>
+        {/* <div className='bg-div-fv'>
           <div data-aos="fade-left">
             <img src={celulares} className='image-fv' />
             <h1 className='text-fv'>FV Publicidades</h1>
@@ -29,7 +29,7 @@ const Portfolio = () => {
             <img src={celulares2} className='image-solucionare'/>
             <h1 className='text-solucionare'>Solucionare</h1>
           </div>
-        </div>
+        </div> */}
 
       </section>
     )
@@ -38,7 +38,7 @@ const Portfolio = () => {
       <section id="diferencial" className={`flex flex-col ${styles.paddingY}`}>
         <div className='div-portfolio'>
           <h1 className='text-portfolio-web'>VEJA ALGUNS DE NOSSOS TRABALHOS</h1>
-          <div className='bg-fv-web'>
+          {/* <div className='bg-fv-web'>
             <br/>
             <img className='image-mobile-fv' src={celulares}/>
             <img className='image-web-fv' src={webFv}/>
@@ -49,7 +49,7 @@ const Portfolio = () => {
             <img className='image-mobile-solucionare' src={celulares2}/>
             <img className='image-web-solucionare' src={webSolucionare}/>
             <h1 className='text-solucionare-web'>Solucionare</h1>
-          </div>
+          </div> */}
         </div>
       </section>
     )

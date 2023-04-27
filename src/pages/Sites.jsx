@@ -5,7 +5,6 @@ import DiferencialSites from '../components/DiferencialSites'
 import Div1Sites from '../components/Div1Sites'
 import Footer from '../components/Footer'
 import Orcamento from '../components/Orcamento'
-import Timeline from '../components/Timeline'
 import styles from '../style'
 
 const Sites = () => {
@@ -17,17 +16,14 @@ const Sites = () => {
                 <Div1Sites/>
               </div>
             </div>
-    
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
                 <Orcamento/>
                 <DiferencialSites/>
-                <Timeline/>
                 <Footer/>
               </div>
             </div>
-    
           </div>
     )
 }
