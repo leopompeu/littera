@@ -40,6 +40,8 @@ import card2 from "./card2.png"
 import card3 from "./card3.png"
 import div1Web from "./Div1Web.png"
 import card1web from "./card1web.png"
+import card2web from "./card2web.png"
+import card3web from "./card3web.png"
 import celularesSites from "./celular.png"
 import backgroundCelulares from "./backgroundCelulares.png"
 import precos from "./preco.png"
@@ -133,6 +135,8 @@ export {
   card3,
   div1Web,
   card1web,
+  card2web,
+  card3web,
   celularesSites,
   backgroundCelulares,
   precos,

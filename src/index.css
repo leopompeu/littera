@@ -3381,3 +3381,87 @@ textarea:focus {
 
   color: #EBBE13;
 }
+
+.txt-carousel-servicos {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #FFFFFF;
+}
+
+.text-carousel-servicos-descricao {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  
+  width: 385px;
+  height: 90px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.saiba-mais-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+
+  width: 157px;
+  height: 48px;
+
+  background: #EBBE13;
+  border-radius: 8px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 17px;
+
+  /* identical to box height, or 85% */
+  text-transform: uppercase;
+
+  color: #5E18CA;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.div-button-servicos {
+  transform: translate(-50%, 0);
+  position: absolute;
+  bottom: 40px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+}
