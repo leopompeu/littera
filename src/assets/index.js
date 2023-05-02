@@ -88,7 +88,7 @@ import imageHistoria from "./imageHistoria.png"
 import imageHistoriaWeb from "./imageHistoriaWeb.png"
 import imagePropositoWeb from "./imagePropositoWeb.png"
 import bgModal from "./bg-modal.png"
-import error from "./404.gif"
+import error from "./error.gif"
 
 export {
   anna,

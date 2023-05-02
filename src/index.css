@@ -1701,8 +1701,8 @@
 
 .buttons-card-orcamentos{
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
   margin-top: 5%;
 }
 
@@ -3171,6 +3171,15 @@ textarea:focus {
   z-index: 9;
 }
 
+.div-modal-mobile{
+  width: 100vw;
+  height: 480px;
+  background-image: url('./assets/bg-modal-mobile.png');
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
 .title-modal{
   justify-content: center;
   font-family: 'Poppins';
@@ -3188,6 +3197,25 @@ textarea:focus {
 
   color: #EBBE13;
 }
+
+.title-modal-mobile{
+  justify-content: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  /* identical to box height, or 44px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+
+  color: #EBBE13;
+}
+
 
 .body-modal{
   justify-content: center;
@@ -3208,8 +3236,31 @@ textarea:focus {
   border-radius: 5px;
 }
 
+.contact-modal-mobile{
+  margin-left: 12px;
+  width: 150px;
+  height: 30px;
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #EBBE13;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px;
+}
+
+
 .contact-modal-input::placeholder{
   color: #FFFFFFCC;
+}
+
+.contact-modal-input-mobile::placeholder{
+  color: #FFFFFFCC;
+  font-size: 12px;
+}
+
+.contact-modal-input-mobile{
+  font-size: 12px;
 }
 
 .contact-text-modal{
@@ -3228,8 +3279,28 @@ textarea:focus {
   color: #EBBE13;
 }
 
+.contact-text-modal-mobile{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* identical to box height, or 23px */
+
+  margin-left: 12px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+
+  color: #EBBE13;
+}
+
 .form-modal{
   margin-top: 2%;
+}
+
+.form-modal-mobile{
+  margin-top: 5%;
 }
 
 .div-item-form-modal{
@@ -3244,7 +3315,7 @@ textarea:focus {
 }
 
 .contact-left-modal{
-  margin-right: 60px;
+  margin-right: 8px;
 }
 
 .contact-button-modal{
@@ -3316,6 +3387,12 @@ textarea:focus {
   margin-right: 50%;
 }
 
+.buttons-modal-mobile{
+  margin-top: 5%;
+  display: inline-block;
+  margin-left: 22%;
+}
+
 .backdrop{
   width: 100vw;
   height: 100vh;
@@ -3362,7 +3439,7 @@ textarea:focus {
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 30%;
   
 }
@@ -3373,7 +3450,7 @@ textarea:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 22px;
-  margin-top: 50%;
+  margin-top: 45%;
 
   /* identical to box height, or 69% */
   text-align: center;

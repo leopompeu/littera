@@ -10,7 +10,7 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
     const [email, setEmail] = useState('')
     const [empresa, setEmpresa] = useState('')
     const [transitionState, setTransitionState] = useState(false)
-      
+
     const templateParams = {
       from_name: nome,
       empresa: empresa,
@@ -48,22 +48,22 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
         if(isOpen){
             return (
                 <div className="backdrop" id={id} onClick={handleBackDropClick}>
-                    <div className="div-modal">
+                    <div className="div-modal-mobile">
                         <div className="body-modal">
                             <br/>       
-                            <h1 className="title-modal">VAMOS CONVERSAR?</h1>
-                            <form className="form-modal" onSubmit={sendEmail}>
+                            <h1 className="title-modal-mobile">VAMOS CONVERSAR?</h1>
+                            <form className="form-modal-mobile" onSubmit={sendEmail}>
                                 <div>
                                     <div className="div-item-form-modal">
                                         <div>
-                                            <label htmlFor='nome' className='contact-text-modal'>Nome</label>
-                                            <div className='contact-modal contact-left-modal'>
+                                            <label htmlFor='nome' className='contact-text-modal-mobile'>Nome</label>
+                                            <div className='contact-modal-mobile contact-left-modal'>
                                                 <input type='text' 
                                                 id='nome' 
                                                 name='nome' 
                                                 autoComplete="off"
                                                 pattern="[A-Za-zÀ-ú ]+" 
-                                                className="contact-modal-input"
+                                                className="contact-modal-input-mobile"
                                                 minLength="3"
                                                 maxLength="50"
                                                 onInput={(e) => {
@@ -76,14 +76,14 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             </div>
                                         </div>
                                         <div>
-                                            <label htmlFor='empresa' className='contact-text-modal'>Empresa</label>
-                                            <div className='contact-modal'>
+                                            <label htmlFor='empresa' className='contact-text-modal-mobile'>Empresa</label>
+                                            <div className='contact-modal-mobile'>
                                                 <input type='text' 
                                                 id='empresa' 
                                                 name='empresa' 
                                                 autoComplete="off"
                                                 pattern="[A-Za-zÀ-ú ]+" 
-                                                className="contact-modal-input"
+                                                className="contact-modal-input-mobile"
                                                 minLength="3"
                                                 maxLength="50"
                                                 onInput={(e) => {
@@ -98,13 +98,13 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                     </div>
                                     <div className="div-item-form-modal2">
                                         <div>
-                                            <label htmlFor='email' className='contact-text-modal'>Email</label>
-                                            <div className='contact-modal contact-left-modal'>
+                                            <label htmlFor='email' className='contact-text-modal-mobile'>Email</label>
+                                            <div className='contact-modal-mobile contact-left-modal'>
                                                 <input type='email' 
                                                 id='email' 
                                                 name='email' 
                                                 autoComplete="off"
-                                                className="contact-modal-input"
+                                                className="contact-modal-input-mobile"
                                                 minLength="3"
                                                 maxLength="50"
                                                 onInput={(e) => {
@@ -117,15 +117,15 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                             </div>
                                         </div>
                                         <div>
-                                            <label htmlFor='celular' className='contact-text-modal'>Celular</label>
-                                            <div className='contact-modal'>
+                                            <label htmlFor='celular' className='contact-text-modal-mobile'>Celular</label>
+                                            <div className='contact-modal-mobile'>
                                                 <InputMask 
                                                 mask="(99) 99999-9999" 
                                                 placeholder="(DDD) 9XXXX-XXXX"
                                                 id='celular' 
                                                 name='celular' 
                                                 autoComplete="off"
-                                                className="contact-modal-input"
+                                                className="contact-modal-input-mobile"
                                                 type='tel' 
                                                 required
                                                 onChange={(e) => setTelefone(e.target.value)}
@@ -135,7 +135,7 @@ const ModalContato = ({ isOpen, setIsOpen, id="modal" }) => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="buttons-modal">
+                                <div className="buttons-modal-mobile">
                                     <input className='contact-button-modal' type='submit' value="ENVIAR"/>
                                     <button className='contact-back-button-modal' onClick={() => setIsOpen(false)}>VOLTAR</button>
                                 </div>
