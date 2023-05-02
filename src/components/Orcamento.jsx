@@ -35,7 +35,7 @@ const Orcamento = () => {
     } else {
         return (
             <section id="orcamento" className={`md:flex-row flex-col `}>
-                <div className='div-orcamento-web'>
+{/*                 <div className='div-orcamento-web'>
                     <div className='card-orcamentos-web' data-aos="fade-up">
                         <h1 className='title-card-orcamentos-web'>QUER SABER EXATAMENTE QUANTO INVESTIR?</h1>
                         <p className='subtitle-card-orcamentos-web'>Faça um pré orçamento ou entre em contato</p>
@@ -43,7 +43,7 @@ const Orcamento = () => {
                                 <button className='button-card-orcamentos-web' onClick={()=>{setModalOpen(true)}}>ORÇAMENTO</button>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <ModalContato isOpen={modalOpen} setIsOpen={setModalOpen}/>
             </section>
         )

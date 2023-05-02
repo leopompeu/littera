@@ -37,7 +37,8 @@ const Portfolio = () => {
     return (
       <section id="diferencial" className={`flex flex-col ${styles.paddingY}`}>
         <div className='div-portfolio'>
-          <h1 className='text-portfolio-web'>VEJA ALGUNS DE NOSSOS TRABALHOS</h1>
+          <h1 className='text-portfolio-web'>VEJA ALGUNS DE</h1>
+          <h1 className='text-portfolio-web2'>NOSSOS TRABALHOS</h1>
           {/* <div className='bg-fv-web'>
             <br/>
             <img className='image-mobile-fv' src={celulares}/>

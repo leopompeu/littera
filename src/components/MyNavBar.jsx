@@ -52,7 +52,7 @@ const MyNavBar = () => {
         <div className={`${styles.paddingX} w-full bg-header`}>
           <nav className="w-full flex py-6 justify-between items-center navbar">
             <a href='/'>
-              <img src={littera} alt="littera" className="w-[124px] [h-32px]"/>
+              <img src={littera} alt="littera" className="w-[124px] [h-32px] littera-logo"/>
             </a>
             <ul className="list-none list sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (

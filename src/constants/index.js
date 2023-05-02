@@ -15,14 +15,14 @@ export const navLinks = [
   {
     id: "sites",
     title: "SITES",
+  },  
+  {
+    id: "aplicativos",
+    title: "APLICATIVOS",
   },
   {
     id: "seguranca",
     title: "SEGURANÇA DIGITAL",
-  },
-  {
-    id: "aplicativos",
-    title: "APLICATIVOS",
   },
   {
     id: "sobre",

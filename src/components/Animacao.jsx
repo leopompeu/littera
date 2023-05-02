@@ -8,7 +8,7 @@ import { celulares, celulares2 } from '../assets'
 const Animacao = () => {
   if(isMobile){
     return (
-      <section id="diferencial" className={`flex md:flex-row flex-col ${styles.paddingY} section-animation`}>
+      <section id="diferencial" className={`flex md:flex-row flex-col ${styles.paddingY} section-animation-mobile`}>
         <div className='animation-container'>
           <h1 className='text-animation animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</h1>
         </div>

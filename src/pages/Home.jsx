@@ -8,6 +8,7 @@ import { MyNavBar, Div1, Servicos, Diferencial, Portfolio, Animacao, Contato, Co
 
 import React from 'react'
 import Animacao2 from "../components/Animacao2";
+import { whatsapp } from "../assets";
 
 const Home = () => {
 
@@ -28,8 +29,9 @@ const Home = () => {
                 <Diferencial />
                 <Portfolio />
                 <Animacao2 />
-                <CarrouselTeam />
                 <ContatoHome />
+                <a target='_blank' href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float">
+                </a>
               </div>
             </div>
     

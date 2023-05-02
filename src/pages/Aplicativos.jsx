@@ -20,9 +20,10 @@ const Aplicativos = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
-                <OrcamentoApps/>
                 <DiferencialApps/>
                 <Footer/>
+                <a target='_blank' href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float"/>
+
               </div>
             </div>
     

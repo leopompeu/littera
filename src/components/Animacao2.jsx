@@ -19,7 +19,7 @@ const Animacao2 = () => {
     )
   } else {
     return(
-      <section id="diferencial" className={`flex flex-col section-animation`}>
+      <section id="diferencial" className={`flex flex-col section-animation2`}>
         <div className='animation-container2'>
           <h1 className='text-animation2 animation'>CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO </h1>
         </div> 

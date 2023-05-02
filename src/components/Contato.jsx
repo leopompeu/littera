@@ -60,7 +60,7 @@ const Contato = () => {
                 pattern="[A-Za-zÀ-ú ]+" 
                 minLength="3"
                 maxLength="50"
-                autocomplete="off"
+                autoComplete="off"
                 placeholder='Digite seu nome...' 
                 onChange={(e) => setName(e.target.value)}
                 value={nome}/>
@@ -71,7 +71,7 @@ const Contato = () => {
                 mask="(99) 99999-9999" 
                 placeholder="(DDD) 9XXXX-XXXX"
                 id='celular' 
-                autocomplete="off"
+                autoComplete="off"
                 name='celular' 
                 required
                 onChange={(e) => setTelefone(e.target.value)}
@@ -81,7 +81,7 @@ const Contato = () => {
               <label htmlFor='email' className='contact-text'>Email</label>
                 <input type='email' 
                 id='email' 
-                autocomplete="off"
+                autoComplete="off"
                 name='email'  
                 placeholder='exemplo@exemplo.com'
                 onChange={(e) => setEmail(e.target.value)}
@@ -93,7 +93,7 @@ const Contato = () => {
               name='mensagem'
               minLength='10'
               maxLength='300'
-              autocomplete="off"
+              autoComplete="off"
               rows='9' 
               cols='60'
               onInput={(e) => {
@@ -121,7 +121,7 @@ const Contato = () => {
               <input type='text' 
               id='nome' 
               name='nome' 
-              autocomplete="off"
+              autoComplete="off"
               pattern="[A-Za-zÀ-ú ]+" 
               minLength="3"
               maxLength="50"
@@ -136,7 +136,7 @@ const Contato = () => {
               placeholder="(DDD) 9XXXX-XXXX"
               id='celular' 
               name='celular' 
-              autocomplete="off"
+              autoComplete="off"
               type='tel' 
               required
               onChange={(e) => setTelefone(e.target.value)}
@@ -151,7 +151,7 @@ const Contato = () => {
               <input type='email' 
               id='email' 
               name='email'  
-              autocomplete="off"
+              autoComplete="off"
               placeholder='exemplo@exemplo.com'
               onChange={(e) => setEmail(e.target.value)}
               value={email}/>
@@ -162,7 +162,7 @@ const Contato = () => {
                     name='mensagem'
                     minLength='10'
                     maxLength='300'
-                    autocomplete="off"
+                    autoComplete="off"
                     rows='9'
                     cols='95'
                     onInput={(e) => {

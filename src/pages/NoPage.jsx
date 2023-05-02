@@ -16,6 +16,7 @@ const NoPage = () => {
                         <h1 className='title-error'>NADA POR AQUI, MELHOR VOLTAR.</h1>
                     </div>
                 </div>
+                <a href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float"/>
             </div>
           )
     } else {
@@ -26,6 +27,7 @@ const NoPage = () => {
                     <img className="gif-web" src={error}></img>
                     <h1 className='title-error-web'>NADA POR AQUI, MELHOR VOLTAR.</h1>
                 </div>
+                <a target='_blank' href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float"/>
             </div>
         </div>
     )
