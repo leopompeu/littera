@@ -3,11 +3,33 @@ import React from 'react'
 import styles from '../style'
 import { isMobile } from 'react-device-detect'
 import { lineBig, map, instagram, linkedin, facebook, twitter, whatsapp, telegram, email } from '../assets'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate, useNavigation } from 'react-router-dom'
 
 
 const Footer = () => {
     const location = useLocation();
+
+    let navigate = useNavigate();
+
+    const routeChangeSites = () =>{ 
+        let path = `../sites`; 
+        navigate(path);
+      }
+      
+      const routeChangeApps = () =>{ 
+        let path = `../aplicativos`; 
+        navigate(path);
+      }
+    
+      const routeChangeSeguranca = () =>{ 
+        let path = `../seguranca`; 
+        navigate(path);
+      }
+      
+      const routeChangeSobre = () =>{ 
+        let path = `../sobre`; 
+        navigate(path);
+      }
 
     if(isMobile){
         return (
@@ -50,13 +72,13 @@ const Footer = () => {
                     <div className='div4-footer'>
                         <div className='div-div4-footer'>
                             <div>
-                                <a href='/sites'>
+                                <a onClick={routeChangeSites}>
                                     <h1 className='text-footer-interest'>Sites</h1>
                                 </a>
-                                <a href='/seguranca'>
+                                <a onClick={routeChangeSeguranca}>
                                     <h1 className='text-footer-interest'>Segurança digital</h1>
                                 </a>
-                                <a href='/aplicativos'>
+                                <a onClick={routeChangeApps}>
                                     <h1 className='text-footer-interest'>Aplicativos</h1>
                                 </a>
                             </div>
@@ -64,7 +86,7 @@ const Footer = () => {
                                 <a href='/orcamentos'>
                                     <h1 className='text-footer-interest'>Orçamentos</h1>
                                 </a>
-                                <a href='/sobre'>
+                                <a onClick={routeChangeSobre}>
                                     <h1 className='text-footer-interest'>Sobre nós</h1>
                                 </a>                         
                             </div>
@@ -86,21 +108,21 @@ const Footer = () => {
                         <h1 className='footer-title title1-footer'>Você pode se interessar</h1>
                         <div className='footer-links-div'>
                             <div className='footer-links-div-div'>
-                                <a href='/sites'>
+                                <a onClick={routeChangeSites}>
                                     <p className='link-footer-web'>Sites</p>
                                 </a>
-                                <a href='/seguranca'>
+                                <a onClick={routeChangeSeguranca}>
                                     <p className='link-footer-web'>Segurança digital</p>
                                 </a>
-                                <a href='/aplicativos'>
+                                <a onClick={routeChangeApps}>
                                     <p className='link-footer-web'>Aplicativos</p>
                                 </a>
                             </div>
                             <div className='footer-links-div-div'>
-                                <a href='/orcamentos'>
+                                <a onClick={routeChangeApps}>
                                     <p className='link-footer-web'>Orçamentos</p>
                                 </a>
-                                <a href='/sobre'>
+                                <a onClick={routeChangeSobre}>
                                     <p className='link-footer-web'>Sobre nós</p>
                                 </a>
                             </div>
