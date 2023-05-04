@@ -91,6 +91,7 @@ import imageHistoriaWeb from "./imageHistoriaWeb.png"
 import imagePropositoWeb from "./imagePropositoWeb.png"
 import bgModal from "./bg-modal.png"
 import error from "./error.gif"
+import diferencialCarousel from "./diferencialCarousel.png"
 
 export {
   anna,
@@ -185,6 +186,7 @@ export {
   imageHistoriaWeb,
   imagePropositoWeb,
   bgModal,
-  error
+  error,
+  diferencialCarousel
     
 };

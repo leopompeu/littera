@@ -5,6 +5,8 @@ import styles from '../style'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { Carousel as CarouselWeb } from 'react-bootstrap'
+import { diferencialCarousel } from '../assets'
 
 const Diferencial = () => {
 
@@ -30,23 +32,52 @@ const Diferencial = () => {
           <h1 className='title-div3-web'>POR QUE A</h1>
           <h1 className='title-div3-web2'>LITTERA?</h1>
           <div data-aos="fade-left">
-            <img className='image1-web' src="https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"></img>
-            <div className='card-diferencial-web'>
-              <div className='textbox-diferencial-web'>
-                <h1 className='title-diferencial-web'>Time especializado</h1>
-                <p className='text-diferencial-web'>A Littera é composta por um time de profissionais experientes em diversos nichos dentro de TI, como foco na inovação de forma assertiva e segura, trabalhamos dia e noite com amor e dedicação para garantir os melhores resultados</p>
-              </div>
-            </div>
+          <CarouselWeb className='carousel-diferencial-web'>
+                    <CarouselWeb.Item> 
+                    <div className='carousel-diferencial-item'>
+                      <img src={diferencialCarousel}/>
+                          <div>
+                          
+                            <h1 className='txt-carousel-diferencial'>Lorem Ipsum</h1>
+                            <p className='txt-carousel-descricao'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur tempore sunt amet alias quisquam fuga error doloremque deleniti voluptatem, modi porro impedit repellat aut laboriosam blanditiis atque architecto dignissimos!</p>
+                          </div>
+                    </div>
+                    
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                    <img src={diferencialCarousel}/>
+                        <div>
+                          
+                        </div>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                    <img src={diferencialCarousel}/>
+                        <div>
+                          
+                        </div>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item>
+                    <img src={diferencialCarousel}/> 
+                        <div>
+                          
+                        </div>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                    <img src={diferencialCarousel}/>
+                        <div>
+                          
+                        </div>
+                    </CarouselWeb.Item>
+                    <CarouselWeb.Item> 
+                      <img src={diferencialCarousel}/>
+                        <div>
+                          
+                        </div>
+                    </CarouselWeb.Item>
+                </CarouselWeb>
+           
           </div>
-          <div data-aos="fade-right">
-            <img className='image2-web' src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"></img>
-            <div className='card-diferencial-web2'>
-              <div className='textbox-diferencial-web2'>
-                <h1 className='title-diferencial-web2'>Qualidade singular</h1>
-                <p className='text-diferencial-web2'>Cada cliente é único na Littera, alinhamos nosso conhecimento para criar a melhor experiencia de usuário baseado em ideias suas! Com reuniões preliminares e constantes atualizações e feedback, trabalhamos com foco na qualidade, segurança e inovação garantindo o site que reflete seu negócio!</p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       
       </section>
