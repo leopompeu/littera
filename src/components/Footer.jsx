@@ -4,6 +4,8 @@ import styles from '../style'
 import { isMobile } from 'react-device-detect'
 import { lineBig, map, instagram, linkedin, facebook, twitter, whatsapp, telegram, email } from '../assets'
 import { useLocation, useNavigate, useNavigation } from 'react-router-dom'
+import { useEffect } from 'react';
+
 
 
 const Footer = () => {
@@ -30,6 +32,11 @@ const Footer = () => {
         let path = `../sobre`; 
         navigate(path);
       }
+      
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
 
     if(isMobile){
         return (

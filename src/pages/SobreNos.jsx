@@ -5,9 +5,14 @@ import Proposito from '../components/Proposito'
 import Footer from '../components/Footer'
 import styles from '../style'
 import Historia from '../components/Historia'
-
+import { useEffect } from 'react';
 
 const SobreNos = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
     return (
       <div className="bg w-full overflow-hidden">            
             {/* Div1 */}

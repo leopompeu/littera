@@ -6,8 +6,14 @@ import Div1Sites from '../components/Div1Sites'
 import Footer from '../components/Footer'
 import Orcamento from '../components/Orcamento'
 import styles from '../style'
+import { useEffect } from 'react';
 
 const Sites = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return (
         <div className="bg w-full overflow-hidden">            
             {/* Div1Sites */}

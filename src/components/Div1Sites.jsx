@@ -12,6 +12,10 @@ const Div1Sites = () => {
     const[modalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
+    useEffect(() => {
         Aos.init({duration: 2000});
     })
     if(isMobile){

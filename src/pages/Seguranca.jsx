@@ -6,8 +6,14 @@ import Div1Seguranca from '../components/Div1Seguranca'
 import Footer from '../components/Footer'
 import OrcamentoSeguranca from '../components/OrcamentoSeguranca'
 import styles from '../style'
+import { useEffect } from 'react';
 
 const Seguranca = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
     return (
         <div className="bg w-full overflow-hidden">            
             {/* Div1Sites */}

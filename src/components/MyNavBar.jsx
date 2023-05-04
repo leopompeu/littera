@@ -15,7 +15,7 @@ const MyNavBar = () => {
   const location = useLocation();
 
   let navigate = useNavigate();
-
+  
   if(isMobile) {
     return (
       <div className={`${styles.paddingX} w-full ${isOpen ? 'bg-header-gradient' : 'bg-header'} `} >

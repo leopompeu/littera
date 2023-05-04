@@ -12,6 +12,10 @@ import { whatsapp } from "../assets";
 
 const Home = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
     return (
         <div className="bg w-full overflow-hidden">            
             {/* Div1 */}

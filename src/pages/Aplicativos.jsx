@@ -6,8 +6,14 @@ import Div1Apps from '../components/Div1Apps'
 import Footer from '../components/Footer'
 import OrcamentoApps from '../components/OrcamentoApps'
 import styles from '../style'
+import { useEffect } from 'react';
 
 const Aplicativos = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
     return (
         <div className="bg w-full overflow-hidden">            
             {/* Div1Apps */}
