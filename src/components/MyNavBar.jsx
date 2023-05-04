@@ -3,7 +3,7 @@ import { menu, x, littera, line, linep } from '../assets'
 import { navLinks } from '../constants'
 import { Divide as Hamburger } from 'hamburger-react'
 
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate, useNavigation } from 'react-router-dom'
 
 import styles from '../style'
 
@@ -13,7 +13,8 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-
 const MyNavBar = () => {
   const [isOpen, setOpen] = useState(false)
   const location = useLocation();
-  
+
+  let navigate = useNavigate();
 
   if(isMobile) {
     return (
@@ -21,7 +22,10 @@ const MyNavBar = () => {
         <nav className="w-full flex py-3 navbar">
             <Accordion className='w-full'>
               <AccordionItem>
-                <a href='/'>
+                <a onClick={() => {
+                  let path = '';
+                  navigate(path);
+                }}>
                   <img src={littera} alt="littera" className=" littera w-[70px] [h-14px] "/>
                 </a>
 
@@ -36,7 +40,10 @@ const MyNavBar = () => {
                         key={nav.id}
                         className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'margin15'}  text-white `}
                       >
-                        <a href={`/${nav.id === 'home' ? '' : nav.id}`} className="text-white">{nav.title}</a>
+                        <a onClick={() => {
+                          let path = nav.id;
+                          navigate(path);
+                        }} className="text-white">{nav.title}</a>
                         <img src={index === navLinks.length - 1 ? '' : linep} className={location.pathname === "/" + nav.id ? 'line-big mt-1' : 'mt-1'}/>
                       </li>
                     ))}
@@ -51,7 +58,10 @@ const MyNavBar = () => {
       return (
         <div className={`${styles.paddingX} w-full bg-header`}>
           <nav className="w-full flex py-6 justify-between items-center navbar">
-            <a href='/'>
+            <a onClick={() => {
+               let path = '';
+               navigate(path);
+            }}>
               <img src={littera} alt="littera" className="w-[124px] [h-32px] littera-logo"/>
             </a>
             <ul className="list-none list sm:flex hidden justify-end items-center flex-1">
@@ -60,7 +70,10 @@ const MyNavBar = () => {
                   key={nav.id}
                   className={`font-poppins text-header font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white `}
                 > 
-                  <a href={`/${nav.id}`} className={`text-header ${location.pathname === "/" + nav.id ? 'text-header-selected' : ''}`}>{nav.title}</a>
+                  <a onClick={() => {
+                    let path = nav.id;
+                    navigate(path);
+                  }} className={`text-header ${location.pathname === "/" + nav.id ? 'text-header-selected' : ''}`}>{nav.title}</a>
 
                 </li>
               ))}
@@ -75,7 +88,10 @@ const MyNavBar = () => {
                       key={nav.id}
                       className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'margin15'}  text-white `}
                     >
-                      <a href={`/${nav.id === 'home' ? '' : nav.id}`} className="text-white">{nav.title}</a>
+                      <a onClick={() => {
+                        let path = nav.id;
+                        navigate(path);
+                      }} className="text-white">{nav.title}</a>
                       <img src={index === navLinks.length - 1 ? '' : linep} className={`mt-1`}/>
                     </li>
                   ))}
