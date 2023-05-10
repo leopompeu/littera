@@ -10,7 +10,7 @@ import ModalContato from './ModalContato'
 
 const Div1Sites = () => {
     const[modalOpen, setModalOpen] = useState(false);
-
+    
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])

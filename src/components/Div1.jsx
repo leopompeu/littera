@@ -6,6 +6,7 @@ import { isMobile } from 'react-device-detect'
 
 import { HashLink as Link } from 'react-router-hash-link'
 
+
 const Div1 = () => {
 
   if(isMobile) {
@@ -15,7 +16,7 @@ const Div1 = () => {
             <h1 className='title'>CONECTE-SE AO SEU FUTURO!</h1>
             <p className='subtitle'>A inovação e a solução que sua empresa busca</p>
             <p className='subtitle2'>Nós criamos para você!</p>
-            <p className='redirect'>VAMOS NOS CONHECER!</p>
+            <a href="#servicos" className='redirect'>VAMOS NOS CONHECER!</a>
             <Link to="#servicos" smooth className='cursor-default'>
               <img src={arrowCircleDown} className='redirect-image'/>
             </Link>
