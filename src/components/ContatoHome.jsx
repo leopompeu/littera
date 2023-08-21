@@ -20,7 +20,7 @@ const ContatoHome = () => {
   } else {
     return(
       <section id="contato" className={`flex flex-col ${styles.paddingY}`}>
-        <div className='footer-web'>
+        <div className={` ${window.innerWidth >= 2000 && !isMobile ? 'footer-web-big-big' : ''} ${window.innerWidth >= 1330 && !isMobile ? 'footer-web-big' : 'footer-web'}`}>
           <Contato data-aos="fade-up"/>
           <Footer/>
         </div>

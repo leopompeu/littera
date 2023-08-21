@@ -1,4 +1,4 @@
-import { littera, leo, anna, buda, batata, thomas, email, div7, telegram, celulares, celulares2, whatsapp, div1, div1Sites, divFv, divSolucionaire, div3, div3Sites, timeline, title2, image1, image2, facebook, instagram, linkedin, twitter, arrowCircleDown, menu, x } from "../assets";
+import { littera, leo, anna, buda, batata, thomas, email, div7, telegram, celulares, celulares2, whatsapp, div1, div1Sites, divFv, divSolucionaire, div3, div3Sites, timeline, title2, image1, image2, facebook, instagram, linkedin, twitter, arrowCircleDown, menu, x, responsiveIcon, experienceIcon, varietyIcon, integrationIcon, timeIcon, techIcon, securityIcon } from "../assets";
 
 export const header = [
     {
@@ -23,10 +23,6 @@ export const navLinks = [
   {
     id: "seguranca",
     title: "SEGURANÇA DIGITAL",
-  },
-  {
-    id: "sobre",
-    title: "SOBRE NÓS",
   },
   {
     id: "x",
@@ -395,4 +391,70 @@ export const contact = [
               }
         ]
     } 
+];
+
+export const portfolio = [
+    {
+        name: "Construtora Fortcon",
+        text: "O projeto foi pensado e executado totalmente para Wordpress. A Construtora Fortcon precisava de um design moderno e responsivo, que encaixasse com o público-alvo de suas campanhas de divulgação. Foi feita uma home-page de apresentação formal, mostrando os diferenciais da empresa, bem como um breve portfolio. Por fim, uma página especialmente destinada ao imóvel em destaque, blog, área de corretores e página de contato, completaram as necessidades de captação de parceiros e clientes.",
+        link: "construtorafortcon.com.br",
+        image: "https://cdn.discordapp.com/attachments/1021484845152608278/1115656801233412326/fortcon.png"
+    },
+    {
+        name: "Festa da Tainha",
+        text: "Feito com Node.js e React, o projeto proporcionou um baixo investimento por parte do cliente e um alto fluxo de visitas através da busca orgânica pelo evento nas redes de pesquisa (Google, Bing, Yahoo, etc…). Aplicando o estilo “neobrutalista” e características marinhas, temática da festa, o design correspondeu ao público e atingiu a identidade esperada. Tratando os apoiadores e causas assistidas com maior destaque, bem como informando melhor o usuário.",
+        link: "festadatainhapg.com.br",
+        image: "https://cdn.discordapp.com/attachments/1021484845152608278/1115682220854738954/festadatainhapg.com.br_Pixel_5.png"
+    },
+    {
+        name: "Realiza Ambiental",
+        text: "Outro projeto feito em Wordpress, visando economia no orçamento e curto prazo. A ideia do site foi implementar o modelo OnePage, visando destacar todas as informações pertinentes em uma só página, garantindo maior fluidez na navegação e experiência do usuário. Solucionando assim, a ausência online da empresa e captando novas possibilidades de negócios.",
+        link: "ambientalrealiza.com.br",
+        image: "https://cdn.discordapp.com/attachments/1021484845152608278/1115682220158492692/ambientalrealiza.com.br_Pixel_5.png"
+    }
+];
+
+export const diferencial = [
+    {
+        title: "Experiência",
+        text: "Crie seu site ou sistema com profissionais experientes na área. Analisamos, otimizamos e implementamos soluções tecnológicas sob medida. Resultados visíveis em produtividade, segurança e competitividade. Transformamos desafios em oportunidades.",
+        icon: experienceIcon,
+        image: "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        title: "Variedade",
+        text: "Desenvolvimento de sites para advogados, agências, construtoras, contabilidades, escolas, escritórios, e muito mais. Possuimos experiência em diversos nichos, além de oferecermos as opções de forma de desenvolvimento, programando ou via wordpress nós desenvolvemos para você!",
+        icon: varietyIcon,
+        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        title: "Integração",
+        text: "Integramos o seu projeto em qualquer que seja a ferramenta que te ajude a impulsionar o seu negócio! Seja um ERP, CRM ou até mesmo redes sociais, conectamos seu site ou sistema às suas necessidades!",
+        icon: integrationIcon,
+        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+    },
+    {
+        title: "Prazo e orçamento",
+        text: "Somos uma junção de tudo o que há de melhor no mercado. Entregamos o seu projeto no tempo esperado, com condições de pagamento e valores que caibam em sua realidade.",
+        icon: timeIcon,
+        image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    },    
+    {
+        title: "Responsividade",
+        text: "Sistemas e sites responsivo para englobar o máximo de dispositivos possiveis. Garantimos qualidade na experiência de todos, com designs responsivos para todos os dispositivos.",
+        icon: responsiveIcon,
+        image: "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+    },    
+    {
+        title: "Tecnologias",
+        text: "Utilizamos em nossos projetos as tecnologias em alta do mercado, possibilitando uma maior interação com a comunidade de desenvolvedores e garantindo uma rápida e incisiva solução para as dores de nossos clientes.",
+        icon: techIcon,
+        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        title: "Segurança",
+        text: "Nossa prioridade é fazer com que os seus dados e de seus clientes estejam sempre seguros! Todos os nossos projetos são realizados de acordo com a LGDP (Lei Geral de Proteção de Dados) e levam em conta possíveis ameaças externas. Realizamos testes e análises de segurança, bem como consultoria de segurança da informação.",
+        icon: securityIcon,
+        image: "https://images.unsplash.com/photo-1632910138458-5bf601f3835e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80"
+    },
 ];

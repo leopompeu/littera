@@ -9,6 +9,8 @@ import styles from '../style'
 
 import { isMobile } from 'react-device-detect'
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'react-headless-accordion'
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 const MyNavBar = () => {
   const [isOpen, setOpen] = useState(false)
@@ -18,16 +20,13 @@ const MyNavBar = () => {
   
   if(isMobile) {
     return (
-      <div className={`${styles.paddingX} w-full ${isOpen ? 'bg-header-gradient' : 'bg-header'} `} >
+      <div className={`w-full ${isOpen ? 'bg-header-gradient' : 'bg-header'} `} >
         <nav className="w-full flex py-3 navbar">
-            <Accordion className='w-full'>
+          <Accordion className='w-full'>
               <AccordionItem>
-                <a onClick={() => {
-                  let path = '';
-                  navigate(path);
-                }}>
-                  <img src={littera} alt="littera" className=" littera w-[70px] [h-14px] "/>
-                </a>
+              <Link className='littera-mobile' smooth to="/" >
+                  <img src={littera} alt="littera" className=" littera-mobile w-[100px]"/>
+              </Link>
 
                 <AccordionHeader>
                   <div className='hamburger'><Hamburger className='hamburger' color='#FFFFFF' size={20} toggled={isOpen} toggle={setOpen} rounded /></div>
@@ -58,13 +57,10 @@ const MyNavBar = () => {
       return (
         <div className={`${styles.paddingX} w-full bg-header`}>
           <nav className="w-full flex py-6 justify-between items-center navbar">
-            <a onClick={() => {
-               let path = '';
-               navigate(path);
-            }}>
+            <Link smooth className='littera' to={document.location.pathname != '/' ? "/" : "/#"}>
               <img src={littera} alt="littera" className="w-[124px] [h-32px] littera-logo"/>
-            </a>
-            <ul className="list-none list sm:flex hidden justify-end items-center flex-1">
+            </Link>
+             <ul className="list-none list sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}

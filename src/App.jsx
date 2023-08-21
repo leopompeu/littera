@@ -21,20 +21,16 @@ import { useEffect } from "react";
 const App = () => {
 
   const [loading, setLoading] = useState(false);
-
+/*   document.addEventListener('contextmenu', event => event.preventDefault());
+ */
   useEffect(() => {
       setLoading(true);
       setTimeout(() => {
           setLoading(false);
-      }, 2000);
+      }, 1500);
   }, []);
 
   return (
-      <div>{loading ? (
-        <div className="loading-container">
-          <div className="spinner"></div>
-        </div>
-         ) : (
           <div>
             <MyNavBar/>
             <Routes>
@@ -42,11 +38,11 @@ const App = () => {
               <Route path="/aplicativos" element={<Aplicativos />} />
               <Route path="/seguranca" element={<Seguranca />} />
               <Route path="/sites" element={<Sites />} />
-              <Route path="/sobre" element={<SobreNos />} />
+              {/*<Route path="/sobre" element={<SobreNos />} /> */}
               <Route path="*" element={<NoPage />} />
+              <Route path="/assets" element={<NoPage />} />
             </Routes>
-          </div>)}
-    </div>
+          </div>
     
   )
 }

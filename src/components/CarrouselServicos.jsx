@@ -8,6 +8,10 @@ import { useNavigate } from 'react-router-dom'
 
 
 function CardServicos() {
+
+    const[modalOpen, setModalOpen] = useState(false);
+    const [thisAnimation, setAnimation] = useState({animation: 'slide-open'})
+    const [thisAnimation2, setAnimation2] = useState({animation: 'fade-in2'})
     
   let navigate = useNavigate();
 
@@ -28,62 +32,8 @@ function CardServicos() {
 
     if(isMobile){
         return (
-            <div className='content-center carousel' data-aos="fade-up">
-                <Carousel 
-                    autoplay= {true}
-                    autoplayInterval = {3500}
-                    wrapAround = {true}
-                    defaultControlsConfig={{
-                        pagingDotsStyle: {
-                            marginRight: "15px",
-                            position: 'relative',
-                            top: '50px'
-                        }
-                    }}
-                    className=".slider-control-bottomcenter button" 
-                    renderCenterLeftControls={({ previousSlide }) => (
-                        <div className='text-white cursor-pointer'>
-                        
-                        </div>
-                    )}
-                    renderCenterRightControls={({ nextSlide }) => (
-                        <div className='text-white cursor-pointer'>
-                        
-                        </div>
-                )}>
-                    <div className='card-servicos-first-mobile'>
-                        <div>
-                            <br/>
-                            <h1 className='txt-carousel-servicos-mobile'>SITES</h1>
-                            <h1 className='txt-carousel-servicos2'>RESPONSIVOS</h1>
-                            <p className='text-carousel-servicos-descricao'>Impulsione seu negocio com sites modernos, dinâmicos, seguros e responsivos!</p>
-                            <div  className='div-button-servicos'>
-                                <button className="saiba-mais-button" onClick={routeChangeSites}>Saiba Mais</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='card-servicos3-mobile'>
-                        <div >
-                            <br/>
-                            <h1 className='txt-carousel-servicos-middle-mobile'>APLICATIVOS</h1>
-                            <p className='text-carousel-servicos-descricao-middle'>Automatize seu negócio ou divulgue ainda mais sua marca com aplicativos leves e modernos!</p>
-                            <div  className='div-button-servicos'>
-                                <button className="saiba-mais-button" onClick={routeChangeApps}>Saiba Mais</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='card-servicos2-mobile'>
-                        <div>
-                            <br/>
-                            <h1 className='txt-carousel-servicos-mobile'>SEGURANÇA</h1>
-                            <h1 className='txt-carousel-servicos2'>DIGITAL</h1>
-                            <p className='text-carousel-servicos-descricao'>Garanta que você e seus clientes estão protegidos à ataques hacker ou treine seus funcionários para evitar golpes e fraudes!</p>
-                            <div  className='div-button-servicos-last'>
-                                <button className="saiba-mais-button" onClick={routeChangeSeguranca}>Saiba Mais</button>
-                            </div>
-                        </div>
-                    </div>
-                </Carousel>
+            <div className='carousel-mobile' data-aos="fade-up">
+                
             </div>
         )
     } else {

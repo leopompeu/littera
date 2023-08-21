@@ -8,23 +8,23 @@ import { celulares, celulares2 } from '../assets'
 const Animacao2 = () => {
   if(isMobile){
     return (
-      <section id="diferencial" className={`flex md:flex-row flex-col ${styles.paddingY} section-animation`}>
+      <section id="diferencial" className={`flex md:flex-row flex-col ${styles.paddingY} section-animation-mobile`}>
         <div className='animation-container'>
-          <h1 className='text-animation animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</h1>
+          <p className='text-animation animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
         </div>
         <div className='animation-container2'>
-          <h1 className='text-animation2 animation'>CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO </h1>
+          <p className='text-animation2 animation'>CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO </p>
         </div>        
       </section>
     )
   } else {
     return(
-      <section id="diferencial" className={`flex flex-col section-animation2`}>
+      <section id="diferencial" className={`flex flex-col ${window.innerWidth >= 2000 && !isMobile ? 'section-animation2-big-big' : 'section-animation2'} ${window.innerWidth >= 1330 && !isMobile ? 'section-animation2-big' : 'section-animation2'}`}>
         <div className='animation-container2'>
-          <h1 className='text-animation2 animation'>CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO </h1>
+          <p className='text-animation2 animation'>CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO CONECTE-SE AO SEU FUTURO </p>
         </div> 
         <div className='animation-container'>
-          <h1 className='text-animation animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</h1>
+          <p className='text-animation animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
         </div>       
       </section>
     )

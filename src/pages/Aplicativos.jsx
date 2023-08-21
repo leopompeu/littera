@@ -7,14 +7,28 @@ import Footer from '../components/Footer'
 import OrcamentoApps from '../components/OrcamentoApps'
 import styles from '../style'
 import { useEffect } from 'react';
+import DocumentMeta from 'react-document-meta'
 
 const Aplicativos = () => {
+
+  const meta = {
+    title: 'Aplicativos | Littera Tech | Consultoria de TI',
+    description: 'Desenvolvemos soluções inovadoras. Consultoria de TI especializada na criação de aplicativos para impulsionar seu negócio.',
+    canonical: 'https://litteratech.com.br/aplicativos',
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'consultoria de ti,ti,tecnologia,criação de aplicativoss,desenvolvimento de aplicativos,segurança da informação,android,ios,mobile,automação,aplicativos,security,web security'
+        }
+    }
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
     return (
+      <DocumentMeta {...meta}>
         <div className="bg w-full overflow-hidden">            
             {/* Div1Apps */}
             <div className={`bg ${styles.flexStart}`}>
@@ -26,14 +40,13 @@ const Aplicativos = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
-                <DiferencialApps/>
-                <Footer/>
-                <a target='_blank' href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float"/>
+
 
               </div>
             </div>
     
           </div>
+        </DocumentMeta>
     )
 }
 

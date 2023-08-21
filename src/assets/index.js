@@ -92,6 +92,26 @@ import imagePropositoWeb from "./imagePropositoWeb.png"
 import bgModal from "./bg-modal.png"
 import error from "./error.gif"
 import diferencialCarousel from "./diferencialCarousel.png"
+import iphone from "./iPhone-molde.png"
+import left from "./a-left.png"
+import right from "./a-right.png"
+import leftY from "./a-left-yellow.png"
+import rightY from "./a-right-yellow.png"
+import responsiveIcon from "./responsive-icon.png"
+import techIcon from "./tech-icon.png"
+import varietyIcon from "./variety-icon.png"
+import experienceIcon from "./experience-icon.png"
+import timeIcon from "./time-icon.png"
+import integrationIcon from "./integration-icon.png"
+import securityIcon from './security-icon.png'
+import litteraArt from './littera-art.webp'
+import sistemas from './Sistemas.webp'
+import sites from './sites.webp'
+import security from './security.webp'
+import seo from './seo.webp'
+import apps from './apps.webp'
+import response from './response.webp'
+
 
 export {
   anna,
@@ -187,6 +207,25 @@ export {
   imagePropositoWeb,
   bgModal,
   error,
-  diferencialCarousel
+  diferencialCarousel,
+  iphone,
+  left,
+  right,
+  leftY,
+  rightY,
+  responsiveIcon,
+  techIcon,
+  varietyIcon,
+  experienceIcon,
+  timeIcon,
+  integrationIcon,
+  securityIcon,
+  litteraArt,
+  sistemas,
+  sites,
+  security,
+  seo,
+  apps,
+  response
     
 };

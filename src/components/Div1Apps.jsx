@@ -1,16 +1,20 @@
 import React, { useState } from 'react'
 import { isMobile } from 'react-device-detect'
-import { backgroundApps, bgDivApp, celulares3, imgDivSites } from '../assets'
+import { backgroundApps, bgDivApp, celulares3, imgDivSites, litteraArt } from '../assets'
 import styles from '../style'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import ModalContato from './ModalContato'
+import DiferencialApps from './DiferencialApps'
+import Footer from './Footer'
 
 
 const Div1Apps = () => {
 
     const[modalOpen, setModalOpen] = useState(false);
+    const [thisAnimation, setAnimation] = useState({animation: 'slide-open'})
+    const [thisAnimation2, setAnimation2] = useState({animation: 'fade-in2'})
     
     useEffect(() => {
         Aos.init({duration: 1000});
@@ -19,16 +23,17 @@ const Div1Apps = () => {
     if(isMobile){
         return (
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-                <div className='bg-div-apps container' >
+                <div className='bg-div-sites container' >
                 </div>
-                <div className='containter'>
-                    <h1 className='conteudo-sites'>APPS LEVES E</h1>
-                    <h1 className='conteudo-sites2'>DINÂMICOS!</h1>
-                    <div className='div-celulares' data-aos="zoom-in">
-                        <img className='background-celular' src={backgroundApps}/>
-                        <img className='image-celular' src={celulares3}/>
-                    </div>
+                <div className='animation-mobile-sites'>
+                    <p className='text-animation-pages1-mobile animation'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
+                    <p className='text-animation-pages2-mobile animation2'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
+                    <img src={litteraArt} className='art-littera-mobile'/>
+                    <p className='text-animation-pages1-mobile animation'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
                 </div>
+                
+                <DiferencialApps/>
+                <Footer/>
             </section>
           )
     } else {
@@ -44,9 +49,19 @@ const Div1Apps = () => {
                         </div>
                     </div>
                 </div>
-                <ModalContato isOpen={modalOpen} setIsOpen={setModalOpen}/>
+                <ModalContato isOpen={modalOpen} setIsOpen={setModalOpen}  thisAnimation={thisAnimation} setAnimation={setAnimation} thisAnimation2={thisAnimation2} setAnimation2={setAnimation2}/>
                 <div className='bg-port-sites'>
                     <h1 className='blank'>.</h1>
+                    <div className='container-animation-pages'>
+                        <p className='text-animation-pages1 animation'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
+                        <p className='text-animation-pages2 animation2'>LITTERA LITTERA  LITTERA LITTERA LITTERA  LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA  LITTERA</p>
+                        <p className='text-animation-pages1 animation'>LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA LITTERA</p>
+                        <img src={litteraArt} className='art-littera'/>
+                    </div>
+
+                    <DiferencialApps/>
+                    <Footer/>
+
                     <div className='div-celulares' data-aos="zoom-in">
                         <h1 className='blank5'>.</h1>
                     </div>

@@ -7,14 +7,28 @@ import Footer from '../components/Footer'
 import OrcamentoSeguranca from '../components/OrcamentoSeguranca'
 import styles from '../style'
 import { useEffect } from 'react';
+import DocumentMeta from 'react-document-meta'
 
 const Seguranca = () => {
+
+  const meta = {
+    title: 'Segurança da Informação | Littera Tech | Consultoria de TI',
+    description: '"Proteja seus dados agora! Consultoria de TI em Segurança da Informação. Garanta a integridade dos seus negócios.',
+    canonical: 'https://litteratech.com.br/seguranca',
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'consultoria de ti,ti,tecnologia,black hat,red hat,white hat,segurança ofensiva,segurança defensiva,segurança da informação,android,ios,mobile,automação,aplicativos,security,web security'
+        }
+    }
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   
     return (
+      <DocumentMeta {...meta}>
         <div className="bg w-full overflow-hidden">            
             {/* Div1Sites */}
             <div className={`bg ${styles.flexStart}`}>
@@ -26,13 +40,12 @@ const Seguranca = () => {
             {/* Body */}
             <div className={`bg ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
-                <DiferencialSeguranca/>
-                <Footer/>
-                <a href="https://wa.me/5513996237281?text=Olá!%20Desejo%20saber%20mais%20sobre%20os%20serviços%20da%20Littera!" className="float" target='_blank'/>
+
               </div>
             </div>
     
           </div>
+          </DocumentMeta>
     )
 }
 
